@@ -1,0 +1,9 @@
+smbnetfs (0.5.3-1) unstable; urgency=low
+
+  * Please note that the smbnetfs configuration file has changed starting
+    from SMBNetFS-0.5.0 version.
+  * Other major changes in this version are (from upstream Changelog):
+    - generalize stat() workaround
+    - allow passwords reading from gnome-keyring
+
+ -- Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>  Fri, 6 Aug 2010 02:52:52 +0300

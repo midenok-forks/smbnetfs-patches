@@ -1,0 +1,13 @@
+Parent:
+process_start_new_smb_conn
+
+Child:
+#0  resolve_name (name=0x7fffdc012cd0 "undefined.local", return_ss=0x7ffff1163700, name_type=32, prefer_ipv4=false) at libsmb/namequery.c:2157
+#1  0x00007ffff7422a05 in SMBC_opendir_ctx (context=0x7fffdc013470, fname=0x625ea0 "smb://undefined.local") at libsmb/libsmb_dir.c:714
+#2  0x00007ffff741dffd in smbc_opendir (durl=0x625ea0 "smb://undefined.local") at libsmb/libsmb_compat.c:253
+#3  0x000000000040ccb9 in smb_conn_srv_opendir (ctx=0x7ffff1163a50, query=0x6214b0, query_len=25) at smb_conn_srv.c:972
+#4  0x000000000040b1ed in smb_conn_srv_listen (ctx=0x7ffff1163a50) at smb_conn_srv.c:300
+
+This have loop over max_retry_count: smb_conn_process_query
+
+Grep this line in log: smb_conn_srv_opendir

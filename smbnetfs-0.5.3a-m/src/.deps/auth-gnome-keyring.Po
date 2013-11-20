@@ -1,0 +1,3 @@
+auth-gnome-keyring.o: auth-gnome-keyring.c config.h
+
+config.h:

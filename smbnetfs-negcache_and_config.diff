@@ -1,0 +1,476 @@
+diff --git a/configure.in b/configure.in
+index 91da9f8..76345c5 100644
+--- a/configure.in
++++ b/configure.in
+@@ -2,6 +2,7 @@ AC_INIT([SMBNetFS],[0.5.3а])
+ AM_INIT_AUTOMAKE
+ AC_CONFIG_HEADERS([src/config.h])
+ AC_PROG_CC
++AC_PROG_CXX
+ 
+ AC_CHECK_FUNCS([setxattr])
+ AC_CHECK_FUNC(backtrace_symbols_fd,
+diff --git a/src/Makefile.am b/src/Makefile.am
+index 41519d8..33e74e4 100644
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -15,4 +15,5 @@ smbnetfs_SOURCES = \
+ 	function.c		function.h		\
+ 	event.c			event.h			\
+ 	reconfigure.c		reconfigure.h		\
++	neg_cache.cc		neg_cache.h		\
+ 	main.c
+diff --git a/src/common.c b/src/common.c
+index f269e56..627c442 100644
+--- a/src/common.c
++++ b/src/common.c
+@@ -5,6 +5,7 @@
+ #include <string.h>
+ #include <pthread.h>
+ #include <execinfo.h>
++#include <errno.h>
+ 
+ #include "common.h"
+ 
+@@ -52,6 +53,9 @@ int common_set_log_file(const char *logfile){
+ 	if (*common_logfile != '\0'){
+ 	    common_stdlog = fopen(common_logfile, "a");
+ 	    if (common_stdlog == NULL){
++		pthread_mutex_unlock(&m_common);
++		DPRINTF(0, "Open file %s error : %s.\n", common_logfile, strerror(errno));
++		pthread_mutex_lock(&m_common);
+ 		memset(common_logfile, 0, sizeof(common_logfile));
+ 		result = 0;
+ 	    }
+@@ -61,21 +65,19 @@ int common_set_log_file(const char *logfile){
+     return result;
+ }
+ 
+-void common_debug_print(int level, const char *fmt, ...){
++void common_debug_print(const char *fmt, ...){
+     va_list	ap;
+ 
+     pthread_mutex_lock(&m_common);
+-    if ((level >= 0) && (level <= common_debug_level)){
++    va_start(ap, fmt);
++    vfprintf(stderr, fmt, ap);
++    va_end(ap);
++    fflush(stderr);
++    if (common_stdlog != NULL){
+ 	va_start(ap, fmt);
+-	vfprintf(stderr, fmt, ap);
++	vfprintf(common_stdlog, fmt, ap);
+ 	va_end(ap);
+-	fflush(stderr);
+-	if (common_stdlog != NULL){
+-	    va_start(ap, fmt);
+-	    vfprintf(common_stdlog, fmt, ap);
+-	    va_end(ap);
+-	    fflush(common_stdlog);
+-	}
++	fflush(common_stdlog);
+     }
+     pthread_mutex_unlock(&m_common);
+ }
+diff --git a/src/common.h b/src/common.h
+index d20942e..1f3a7c9 100644
+--- a/src/common.h
++++ b/src/common.h
+@@ -4,6 +4,8 @@
+ #include "config.h"
+ #include <sys/types.h>
+ #include <unistd.h>
++#include <time.h>
++#include <sys/time.h>
+ 
+ /* gcc specific extension. does nothing on other compilers */
+ #if defined(__GNUC__)
+@@ -16,14 +18,27 @@ int  common_get_smbnetfs_debug_level(void);
+ int  common_set_smbnetfs_debug_level(int level);
+ int  common_set_log_file(const char *logfile);
+ 
+-void common_debug_print(int level, const char *fmt, ...) ATTRIB((format(printf, 2, 3)));
++void common_debug_print(const char *fmt, ...) ATTRIB((format(printf, 1, 2)));
+ void common_print_backtrace(void);
+ 
++extern int common_debug_level;
++
++#define DEBUG_PRINT(level, fmt, args...) \
++        if ((level >= 0) && (level <= common_debug_level)) { \
++	    struct timeval __now; \
++	    gettimeofday(&__now, NULL); \
++	    char __tstamp[16]; \
++	    struct tm __tm; \
++	    localtime_r(&__now.tv_sec, &__tm); \
++	    strftime(__tstamp, 16, "%b %d %T", &__tm); \
++	    common_debug_print("%.15s.%03d " fmt, __tstamp, (int)__now.tv_usec / 1000, ## args); \
++         }
++
+ #ifdef PRINTF_DEBUG
+   #include <stdio.h>
+   #define	DPRINTF(level, fmt, args...)	{ fprintf(stderr, "%d->%s: " fmt, getpid(), __FUNCTION__, ## args); fflush(stderr); }
+ #else
+-  #define	DPRINTF(level, fmt, args...)	common_debug_print(level, "%d->%s: " fmt, getpid(), __FUNCTION__, ## args)
++  #define	DPRINTF(level, fmt, args...) DEBUG_PRINT(level, "%d->%s: " fmt, getpid(), __FUNCTION__, ## args);
+ #endif
+ 
+ #ifndef HAVE_STRNDUP
+diff --git a/src/event.c b/src/event.c
+index d31a83d..fa5d20d 100644
+--- a/src/event.c
++++ b/src/event.c
+@@ -18,7 +18,7 @@ int		event_query_browser_flag	= 1;
+ int		event_time_step			= 10;
+ int		event_smb_tree_scan_period	= 300;
+ int		event_smb_tree_elements_ttl	= 900;
+-int		event_config_update_period	= 300;
++int		event_config_update_period	= 0;
+ 
+ time_t		event_last_smb_tree_scan	= (time_t) 0;
+ time_t		event_last_config_update	= (time_t) 0;
+@@ -112,10 +112,10 @@ int event_is_time_for_smb_tree_scan(void){
+ int event_set_config_update_period(int period){
+     DPRINTF(7, "period=%d\n", period);
+     pthread_mutex_lock(&m_evthread);
+-    if (period < event_time_step) period = -1;
+-    else event_config_update_period = period;
++    if (period >=0)
++	event_config_update_period = period;
+     pthread_mutex_unlock(&m_evthread);
+-    return (period > 0) ? 1 : 0;
++    return (period >= 0) ? 1 : 0;
+ }
+ 
+ void event_set_last_config_update(time_t update_time){
+@@ -128,7 +128,8 @@ int event_is_time_for_config_update(void){
+     int flag;
+ 
+     pthread_mutex_lock(&m_evthread);
+-    flag = (time(NULL) >= event_last_config_update +
++    flag = event_config_update_period > 0 &&
++	   (time(NULL) >= event_last_config_update +
+ 			  event_config_update_period) ? 1 : 0;
+     pthread_mutex_unlock(&m_evthread);
+     return flag;
+diff --git a/src/main.c b/src/main.c
+index 42e7d63..ecd47a9 100644
+--- a/src/main.c
++++ b/src/main.c
+@@ -200,7 +200,10 @@ int main(int argc, char *argv[]){
+ 	exit(EXIT_FAILURE);
+     }
+ 
+-    reconfigure_read_config(CONFIG_OPT_STARTUP);
++    int rc = reconfigure_read_config(CONFIG_OPT_STARTUP);
++    if (rc != 0)
++	return rc;
++
+     samba_allocate_ctxs();
+ 
+     fuse_main(args.argc, args.argv, &smb_oper, NULL);
+diff --git a/src/neg_cache.cc b/src/neg_cache.cc
+new file mode 100644
+index 0000000..8a7c5ba
+--- /dev/null
++++ b/src/neg_cache.cc
+@@ -0,0 +1,150 @@
++#include <map>
++#include <algorithm>
++#include <string>
++#include <time.h>
++#include <pthread.h>
++#include <errno.h>
++#ifndef _GNU_SOURCE
++#define _GNU_SOURCE
++#endif
++#include <string.h>
++
++using namespace std;
++
++// items are stored until this count of seconds
++static size_t cache_ttl = 3;
++
++struct data_byname
++{
++    data_byname(int err): time_it(0), error(err) {}
++    void * time_it;
++    int error;
++};
++
++typedef map<string, data_byname> map_byname;
++typedef map_byname::iterator it_byname;
++typedef multimap<time_t, it_byname> map_bytime;
++typedef map_bytime::iterator it_bytime;
++
++static map_byname by_name;
++static map_bytime by_time;
++
++struct delete_name
++{
++    void operator() (map_bytime::value_type& n)
++    {
++	by_name.erase(n.second);
++    }
++};
++
++class RWLock
++{
++public:
++    RWLock() { pthread_rwlock_init(&lock_, 0); }
++    ~RWLock() { pthread_rwlock_destroy(&lock_); }
++    operator pthread_rwlock_t&() { return lock_; }
++
++private:
++    pthread_rwlock_t lock_;
++};
++
++class RGuard
++{
++public:
++    RGuard(pthread_rwlock_t& l): lock_(l) { pthread_rwlock_rdlock(&lock_); }
++    ~RGuard() { pthread_rwlock_unlock(&lock_); }
++
++private:
++    pthread_rwlock_t& lock_;
++};
++
++class WGuard
++{
++public:
++    WGuard(pthread_rwlock_t& l): lock_(l) { pthread_rwlock_wrlock(&lock_); }
++    ~WGuard() { pthread_rwlock_unlock(&lock_); }
++
++private:
++    pthread_rwlock_t& lock_;
++};
++
++static RWLock lock;
++
++
++extern "C"
++{
++
++// performance ~1.4m ops/sec
++int check_negcache(const char *url)
++{
++    if (*url != '/')
++	return 0; /* (won't cache unknown stuff) */
++
++    ++url; // skip leading '/'
++    if (*url == 0)
++	return 0; /* (something evil is happening) */
++
++    RGuard guard(lock);
++    if (by_time.size() == 0)
++	return 0;
++
++    string host(url, strchrnul(url, '/'));
++
++    time_t expiry;
++    time(&expiry);
++    expiry -= cache_ttl;
++    
++    it_bytime t = by_time.end();
++    it_bytime p = t--;
++    while (true)
++    {
++	if (t->first <= expiry) {
++	    for_each(by_time.begin(), p, delete_name());
++	    by_time.erase(by_time.begin(), p);
++	    break;
++	}
++	if (t == by_time.begin())
++            break;
++	p = t--;
++    }
++
++    it_byname name_it = by_name.find(host);
++    if (name_it == by_name.end())
++	return 0;
++
++    return name_it->second.error;
++}
++
++// performance ~820k ops/sec
++void set_negcache(const char *url, int error)
++{
++    if (*url != '/')
++	return; /* (won't cache unknown stuff) */
++
++    if (error != ECONNREFUSED && error != ETIMEDOUT)
++	return;
++
++    ++url; // skip leading '/'
++    if (*url == 0)
++	return; /* (something evil is happening) */
++
++    string host(url, strchrnul(url, '/'));
++    WGuard guard(lock);
++    it_byname name_it = by_name.find(host);
++    it_bytime time_it;
++
++    if (name_it != by_name.end()) {
++	*(void **)&time_it = name_it->second.time_it;
++	by_time.erase(time_it);
++	name_it->second.error = error;
++    } else {
++	pair<it_byname, bool> res = by_name.insert(
++	    map_byname::value_type(host, error)
++	);
++	name_it = res.first;
++    }
++    
++    time_it = by_time.insert(map_bytime::value_type(time(0), name_it));
++    name_it->second.time_it = *(void **)&time_it;
++}
++}
+diff --git a/src/neg_cache.h b/src/neg_cache.h
+new file mode 100644
+index 0000000..f737280
+--- /dev/null
++++ b/src/neg_cache.h
+@@ -0,0 +1,7 @@
++#ifndef __NEG_CACHE_H__
++#define __NEG_CACHE_H__
++
++int check_negcache(const char *url);
++void set_negcache(const char *url, int error);
++
++#endif /* __NEG_CACHE_H__ */
+diff --git a/src/reconfigure.c b/src/reconfigure.c
+index e9bfd44..6a58f45 100644
+--- a/src/reconfigure.c
++++ b/src/reconfigure.c
+@@ -584,7 +584,7 @@ int reconfigure_read_config_file(const char *filename, int flags){
+     DPRINTF(7, "reading file: %s\n", filename);
+     if ((file = fopen(filename, "r")) == NULL){
+ 	int error = errno;
+-	DPRINTF(3, "Open file %s error : %s.\n", filename, strerror(error));
++	DPRINTF(0, "Open file %s error : %s.\n", filename, strerror(error));
+ 	free((char *) filename);
+ 	errno = error;
+ 	return -1;
+@@ -615,7 +615,9 @@ int reconfigure_read_config_file(const char *filename, int flags){
+ 
+ 	if (cnt == 2){
+ 	    if (strcasecmp(arg[0], "include") == 0){
+-		reconfigure_read_config_file(arg[1], flags);
++		int rc = reconfigure_read_config_file(arg[1], flags);
++		if (rc != 0)
++		      return rc;
+ 		continue;
+ 	    }
+ 	    if (reconfigure_analyse_simple_option(arg[0], arg[1], flags)) continue;
+diff --git a/src/smb_conn.c b/src/smb_conn.c
+index 35851c7..7c16bd5 100644
+--- a/src/smb_conn.c
++++ b/src/smb_conn.c
+@@ -21,19 +21,20 @@
+ #include "smb_conn_proto.h"
+ #include "process.h"
+ #include "smb_conn.h"
++#include "neg_cache.h"
+ 
+ #ifndef MAP_ANONYMOUS
+     #define	MAP_ANONYMOUS	MAP_ANON
+ #endif
+ 
+ 
+-int		smb_conn_max_retry_count	= 3;
++int		smb_conn_max_retry_count	= 0;
+ int		smb_conn_max_passwd_query_count	= 10;
+ int		smb_conn_server_reply_timeout	= 60;
+ pthread_mutex_t	m_smb_conn			= PTHREAD_MUTEX_INITIALIZER;
+ 
+ int smb_conn_set_max_retry_count(int count){
+-    if (count < 1) return 0;
++    if (count < 0) return 0;
+     DPRINTF(7, "count=%d\n", count);
+     pthread_mutex_lock(&m_smb_conn);
+     smb_conn_max_retry_count = count;
+@@ -44,6 +45,8 @@ int smb_conn_set_max_retry_count(int count){
+ int smb_conn_get_max_retry_count(void){
+     int count;
+ 
++    // NB: why locks here? Better use RW locks or not use at all!
++    // (who does writes to this variable at runtime?)
+     pthread_mutex_lock(&m_smb_conn);
+     count = smb_conn_max_retry_count;
+     pthread_mutex_unlock(&m_smb_conn);
+@@ -365,7 +368,7 @@ int smb_conn_process_query_lowlevel_va(
+ 	    msg = ((char *) msg_req) + msg_req->msg_offs;
+ 	    if (bytes != (ssize_t) (strlen(msg) + 1)) goto error;
+ 
+-	    common_debug_print(msg_req->debug_level, "%s", msg);
++	    DEBUG_PRINT(msg_req->debug_level, "%s", msg);
+ 
+ 	    if (reply_hdr->reply_cmd == DIE_MSG){
+ 		errno = reply_hdr->errno_value;
+@@ -449,11 +452,23 @@ int smb_conn_process_query(
+ 			void *query, size_t query_len,
+ 			void *reply, size_t reply_len,
+ 			...){
+-
+     va_list		ap;
+     int			count, retval, errno_value;
++    const char* url;
++
++    va_start(ap, reply_len);
++    url = va_arg(ap, const char *);
++    va_end(ap);
++
++    if (url) {
++	errno_value = check_negcache(url);
++	if (errno_value) {
++	    errno = errno_value;
++	    return EIO;
++	}
++    }
+ 
+-    for(count = 0; count < smb_conn_get_max_retry_count(); count++){
++    for(count = 0;; count++) {
+ 	if (smb_conn_up_if_broken(ctx) != 0) break;
+ 
+ 	va_start(ap, reply_len);
+@@ -466,9 +481,19 @@ int smb_conn_process_query(
+ 			ap);
+ 	va_end(ap);
+ 
+-	if (retval == 0) return errno_value;
++	if (retval == 0)
++	    return errno_value;
++
++        if (count >= smb_conn_get_max_retry_count())
++	   break;
++
++	// TODO: make this configurable
+ 	sleep(2);
+     }
++
++    if (url)
++	set_negcache(url, errno);
++
+     return EIO;
+ }
+ 
+@@ -484,7 +509,7 @@ int smb_conn_process_fd_query(
+ 
+     if ((file == NULL) || (file->url == NULL)) return EINVAL;
+ 
+-    for(count = 0; count < smb_conn_get_max_retry_count(); count++){
++    for(count = 0;; count++){
+ 	if (smb_conn_up_if_broken(ctx) != 0) break;
+ 
+ 	if (file->srv_fd == NULL){
+@@ -540,7 +565,10 @@ int smb_conn_process_fd_query(
+ 			NULL);
+ 	if (retval == 0) return errno_value;
+ 
+-      loop_end:
++	loop_end:
++	if (count >= smb_conn_get_max_retry_count())
++	    break;
++
+ 	sleep(2);
+     }
+     return EIO;

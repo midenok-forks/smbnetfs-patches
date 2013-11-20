@@ -1,0 +1,35 @@
+This file describe how to install and use smbnetfs (old name smbfs) program.
+smbnetfs is a program that mount microsoft windows network.
+
+1) install fuse-2.6 or later (see http://fuse.sourceforge.net/)
+
+2) load fuse module:
+
+    modprobe fuse
+
+3) compile smbnetfs and copy it somewhere (ex: /usr/local/bin)
+
+    tar xjf ./smbnetfs-0.5.3а.tar.bz2
+    cd smbnetfs-0.5.3а
+
+    ./configure
+    make
+    make install
+
+4) create your personal smbnetfs configuration
+
+    mkdir -p ~/.smb
+    cp /etc/samba/smb.conf ~/.smb
+    cp conf/smbnetfs.* ~/.smb/
+    chmod 600 ~/.smb/smbnetfs.*
+
+5) tune parameters in ~/.smb/smbnetfs.* files
+
+6) mount filesystem
+
+    mkdir mountpoint
+    smbnetfs mountpoint
+
+7) enjoy ....
+
+    cd mountpoint

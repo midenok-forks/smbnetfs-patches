@@ -1,0 +1,14 @@
+Package: smbnetfs
+Version: 0.5.3a-1mid1
+Architecture: amd64
+Maintainer: Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>
+Installed-Size: 189
+Depends: libc6 (>= 2.15), libfuse2 (>= 2.8.1), libgcc1 (>= 1:4.1.1), libsmbclient (>= 2:3.2.0), libstdc++6 (>= 4.1.1)
+Recommends: fuse
+Section: net
+Priority: optional
+Homepage: http://sourceforge.net/projects/smbnetfs
+Description: User-space filesystem for SMB/NMB (Windows) network servers and shares
+ A user-space filesystem that contains an entire SMB/NMB network under a single
+ mount point. Workgroups, servers and shares can be browsed much like the
+ Network Neighbourhood in Microsoft Windows.

@@ -1,0 +1,8 @@
+   Delays minimized and more:
+
+    * Timestamps in debug log
+    * Useless periodic config update is disabled by default
+    * Proper config handling, exit if config failed at startup
+    * max_retry_count is 0 by default
+    * Don't do last sleep(2) after last retry
+    * Per-host negative cache for errors ECONNREFUSED and ETIMEDOUT

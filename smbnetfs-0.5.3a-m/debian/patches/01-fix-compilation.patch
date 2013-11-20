@@ -1,0 +1,26 @@
+From ace1c519d45fe488b9b7e6cc77a2bcadb6c83464 Mon Sep 17 00:00:00 2001
+From: Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>
+Date: Mon, 24 Oct 2011 23:26:05 +0400
+Subject: [PATCH] fix compilation with -Wformat -Wformat-security
+ -Werror=format-security flags
+
+---
+ src/smb_conn.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/src/smb_conn.c b/src/smb_conn.c
+index 546cf36..35851c7 100644
+--- a/src/smb_conn.c
++++ b/src/smb_conn.c
+@@ -365,7 +365,7 @@ int smb_conn_process_query_lowlevel_va(
+ 	    msg = ((char *) msg_req) + msg_req->msg_offs;
+ 	    if (bytes != (ssize_t) (strlen(msg) + 1)) goto error;
+ 
+-	    common_debug_print(msg_req->debug_level, msg);
++	    common_debug_print(msg_req->debug_level, "%s", msg);
+ 
+ 	    if (reply_hdr->reply_cmd == DIE_MSG){
+ 		errno = reply_hdr->errno_value;
+-- 
+1.7.7
+

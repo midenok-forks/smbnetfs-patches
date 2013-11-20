@@ -1,0 +1,19 @@
+Source: smbnetfs
+Section: net
+Priority: optional
+Maintainer: Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>
+Uploaders: Varun Hiremath <varun@debian.org>
+Build-Depends: debhelper (>= 7), cdbs, quilt, pkg-config, libsmbclient-dev (>= 3.2), libfuse-dev (>= 2.6), libgnome-keyring-dev (>= 2.28)
+Standards-Version: 3.9.2
+Homepage: http://sourceforge.net/projects/smbnetfs
+Vcs-Svn: https://bollin.googlecode.com/svn/smbnetfs/
+Vcs-Browser: http://bollin.googlecode.com/svn/smbnetfs/
+
+Package: smbnetfs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: fuse [linux-any]
+Description: User-space filesystem for SMB/NMB (Windows) network servers and shares
+ A user-space filesystem that contains an entire SMB/NMB network under a single
+ mount point. Workgroups, servers and shares can be browsed much like the
+ Network Neighbourhood in Microsoft Windows.

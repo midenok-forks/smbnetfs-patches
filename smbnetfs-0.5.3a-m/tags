@@ -1,0 +1,924 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ATTRIB	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^  #define ATTRIB(/;"	d
+ATTRIB	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^  #define ATTRIB(/;"	d
+AUTH_FALLBACK	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_FALLBACK	/;"	d
+AUTH_MATCH_DEFAULT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_MATCH_DEFAULT	/;"	d
+AUTH_MATCH_DOMAIN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_MATCH_DOMAIN	/;"	d
+AUTH_MATCH_DOMAIN_COMPAT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_MATCH_DOMAIN_COMPAT	/;"	d
+AUTH_MATCH_RESOURCE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_MATCH_RESOURCE	/;"	d
+AUTH_MATCH_SERVER	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define AUTH_MATCH_SERVER	/;"	d
+CHARSET_BUF_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^#define CHARSET_BUF_SIZE	/;"	d
+CHARSET_LEN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^#define	CHARSET_LEN	/;"	d	file:
+CHMOD	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    CHMOD,$/;"	e	enum:smb_conn_cmd
+CLOSE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    CLOSE,$/;"	e	enum:smb_conn_cmd
+CLOSEDIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    CLOSEDIR,$/;"	e	enum:smb_conn_cmd
+COMM_BUF_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^#define	COMM_BUF_SIZE	/;"	d
+CONFIG_OPT_CMDLINE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^#define CONFIG_OPT_CMDLINE	/;"	d
+CONFIG_OPT_STARTUP	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^#define CONFIG_OPT_STARTUP	/;"	d
+CREAT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    CREAT,$/;"	e	enum:smb_conn_cmd
+DELIMITER	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^    DELIMITER,$/;"	e	enum:config_read_mode	file:
+DELIMITER	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^    DELIMITER,$/;"	e	enum:config_read_mode	file:
+DIE_MSG	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    DIE_MSG = -3,$/;"	e	enum:smb_conn_cmd
+DPRINTF	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^  #define	DPRINTF(/;"	d
+DSRVDIEMSG	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^  #define	DSRVDIEMSG(/;"	d
+DSRVPRINTF	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^  #define	DSRVPRINTF(/;"	d
+FIELD_MAX	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^#define FIELD_MAX	/;"	d	file:
+FIELD_MAX	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^#define FIELD_MAX	/;"	d	file:
+FSTAT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    FSTAT,$/;"	e	enum:smb_conn_cmd
+FTRUNCATE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    FTRUNCATE,$/;"	e	enum:smb_conn_cmd
+GETXATTR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    GETXATTR,$/;"	e	enum:smb_conn_cmd
+GNOME_KEYRING_DISABLED	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    GNOME_KEYRING_DISABLED = 0,$/;"	e	enum:gnome_keyring_status	file:
+GNOME_KEYRING_ENABLED	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    GNOME_KEYRING_ENABLED$/;"	e	enum:gnome_keyring_status	file:
+GNOME_KEYRING_NOT_AVAILABLE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    GNOME_KEYRING_NOT_AVAILABLE = -1,$/;"	e	enum:gnome_keyring_status	file:
+HAVE_BACKTRACE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define HAVE_BACKTRACE /;"	d
+HAVE_LIBSMBCLIENT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define HAVE_LIBSMBCLIENT /;"	d
+HAVE_LIBSMBCLIENT_3_2	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define HAVE_LIBSMBCLIENT_3_2 /;"	d
+HAVE_SETXATTR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define HAVE_SETXATTR /;"	d
+HAVE_STRNDUP	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define HAVE_STRNDUP /;"	d
+LDFLAGS	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/debian/rules	/^export LDFLAGS := -Wl,--as-needed$/;"	m
+LINE_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^#define LINE_SIZE	/;"	d	file:
+LINE_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^#define LINE_SIZE	/;"	d	file:
+LIST	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^} LIST;$/;"	t	typeref:struct:__LIST
+LISTXATTR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    LISTXATTR,$/;"	e	enum:smb_conn_cmd
+MAP_ANONYMOUS	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^    #define	MAP_ANONYMOUS	/;"	d	file:
+MAP_ANONYMOUS	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^    #define	MAP_ANONYMOUS	/;"	d	file:
+MAX_FILENAME_LEN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^#define MAX_FILENAME_LEN	/;"	d
+MESSAGE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    MESSAGE = -2,$/;"	e	enum:smb_conn_cmd
+MKDIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    MKDIR,$/;"	e	enum:smb_conn_cmd
+OPEN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    OPEN = 0,$/;"	e	enum:smb_conn_cmd
+OPENDIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    OPENDIR,$/;"	e	enum:smb_conn_cmd
+PACKAGE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE /;"	d
+PACKAGE_BUGREPORT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_BUGREPORT /;"	d
+PACKAGE_NAME	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_NAME /;"	d
+PACKAGE_STRING	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_STRING /;"	d
+PACKAGE_TARNAME	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_TARNAME /;"	d
+PACKAGE_URL	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_URL /;"	d
+PACKAGE_VERSION	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define PACKAGE_VERSION /;"	d
+PASSWORD	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    PASSWORD = -1,$/;"	e	enum:smb_conn_cmd
+PATTERN_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^#define PATTERN_SIZE	/;"	d	file:
+PATTERN_SIZE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^#define PATTERN_SIZE	/;"	d	file:
+PLAIN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^    PLAIN,$/;"	e	enum:config_read_mode	file:
+PLAIN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^    PLAIN,$/;"	e	enum:config_read_mode	file:
+QUOTED	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^    QUOTED$/;"	e	enum:config_read_mode	file:
+QUOTED	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^    QUOTED$/;"	e	enum:config_read_mode	file:
+READ	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    READ,$/;"	e	enum:smb_conn_cmd
+READDIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    READDIR,$/;"	e	enum:smb_conn_cmd
+REMOVEXATTR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    REMOVEXATTR$/;"	e	enum:smb_conn_cmd
+RENAME	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    RENAME,$/;"	e	enum:smb_conn_cmd
+REQ_TIMEOUT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^#define REQ_TIMEOUT(/;"	d	file:
+RGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    RGuard(pthread_rwlock_t& l): lock_(l) { pthread_rwlock_rdlock(&lock_); }$/;"	f	class:RGuard
+RGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^class RGuard$/;"	c	file:
+RMDIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    RMDIR,$/;"	e	enum:smb_conn_cmd
+RWLock	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    RWLock() { pthread_rwlock_init(&lock_, 0); }$/;"	f	class:RWLock
+RWLock	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^class RWLock$/;"	c	file:
+SETXATTR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    SETXATTR,$/;"	e	enum:smb_conn_cmd
+SMBITEM_GROUP	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_GROUP$/;"	e	enum:smbitem_t
+SMBITEM_HOST	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_HOST,$/;"	e	enum:smbitem_t
+SMBITEM_LINK	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_LINK,$/;"	e	enum:smbitem_t
+SMBITEM_SAMBA_TREE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SAMBA_TREE$/;"	e	enum:smbitem_tree_t
+SMBITEM_SMBNETFS_DIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SMBNETFS_DIR,$/;"	e	enum:smbitem_path_t
+SMBITEM_SMBNETFS_LINK	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SMBNETFS_LINK,$/;"	e	enum:smbitem_path_t
+SMBITEM_SMB_NAME	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SMB_NAME,$/;"	e	enum:smbitem_path_t
+SMBITEM_SMB_SHARE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SMB_SHARE,$/;"	e	enum:smbitem_path_t
+SMBITEM_SMB_SHARE_ITEM	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_SMB_SHARE_ITEM$/;"	e	enum:smbitem_path_t
+SMBITEM_UNKNOWN	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_UNKNOWN,$/;"	e	enum:smbitem_path_t
+SMBITEM_USER_TREE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    SMBITEM_USER_TREE,$/;"	e	enum:smbitem_tree_t
+SMB_CONN_DIR	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^    SMB_CONN_DIR$/;"	e	enum:smb_conn_srv_fd_type
+SMB_CONN_FILE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^    SMB_CONN_FILE,$/;"	e	enum:smb_conn_srv_fd_type
+STAT	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    STAT,$/;"	e	enum:smb_conn_cmd
+STATIC_LIST_INITIALIZER	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^#define STATIC_LIST_INITIALIZER(/;"	d
+UNLINK	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    UNLINK,$/;"	e	enum:smb_conn_cmd
+UTIMES	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    UTIMES,$/;"	e	enum:smb_conn_cmd
+VERSION	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/config.h	/^#define VERSION /;"	d
+WGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    WGuard(pthread_rwlock_t& l): lock_(l) { pthread_rwlock_wrlock(&lock_); }$/;"	f	class:WGuard
+WGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^class WGuard$/;"	c	file:
+WRITE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    WRITE,$/;"	e	enum:smb_conn_cmd
+_GNU_SOURCE	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^#define _GNU_SOURCE$/;"	d	file:
+__AUTH_GNOME_KEYRING_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^#define	__AUTH_GNOME_KEYRING_H__$/;"	d
+__AUTH_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^#define __AUTH_H__$/;"	d
+__CHARSET_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^#define __CHARSET_H__$/;"	d
+__COMMON_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^#define	__COMMON_H__$/;"	d
+__EVENT_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^#define __EVENT_H__$/;"	d
+__FUNCTION_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^#define __FUNCTION_H__$/;"	d
+__LIST	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^typedef struct __LIST{$/;"	s
+__LIST_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^#define __LIST_H__$/;"	d
+__NEG_CACHE_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.h	/^#define __NEG_CACHE_H__$/;"	d
+__PROCESS_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^#define __PROCESS_H__$/;"	d
+__RECONFIGURE_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^#define	__RECONFIGURE_H__$/;"	d
+__SAMBA_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^#define __SAMBA_H__$/;"	d
+__SMBITEM_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^#define __SMBITEM_H__$/;"	d
+__SMB_CONN_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^#define __SMB_CONN_H__$/;"	d
+__SMB_CONN_PROTO_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^#define __SMB_CONN_PROTO_H__$/;"	d
+__SMB_CONN_SRV_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^#define __SMB_CONN_SRV_H__$/;"	d
+__STAT_WORKAROUND_H__	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^#define __STAT_WORKAROUND_H__$/;"	d
+ac_fn_c_check_func	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_member	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^ac_fn_c_check_member ()$/;"	f
+ac_fn_c_try_compile	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_link	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_cxx_try_compile	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+access_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    time_t			access_time;	\/\/ file_handle acess time$/;"	m	struct:smb_conn_file
+access_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    time_t			access_time;$/;"	m	struct:smb_conn_ctx
+add_to_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void add_to_list(LIST *list, LIST *elem){$/;"	f
+add_to_list_back	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void add_to_list_back(LIST *list, LIST *elem){$/;"	f
+as_fn_append	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_error ()$/;"	f
+as_fn_exit	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^as_fn_unset ()$/;"	f
+auth_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^void auth_delete_obsolete(time_t threshold){$/;"	f
+auth_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^void              auth_delete_obsolete(time_t threshold);$/;"	p
+auth_fake_password	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^char		*auth_fake_password	= "********";$/;"	v
+auth_get_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authinfo * auth_get_authinfo($/;"	f
+auth_get_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^struct authinfo * auth_get_authinfo($/;"	p
+auth_login	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^char		auth_login[64]		= "guest";$/;"	v
+auth_release_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^void auth_release_authinfo(struct authinfo *info){$/;"	f
+auth_release_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^void              auth_release_authinfo(struct authinfo *info);$/;"	p
+auth_set_default_login_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^void auth_set_default_login_name(const char *name){$/;"	f
+auth_set_default_login_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^void              auth_set_default_login_name(const char *name);$/;"	p
+auth_store_auth_data	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^int auth_store_auth_data(const char *server,$/;"	f
+auth_store_auth_data	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^int               auth_store_auth_data($/;"	p
+authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^struct authinfo{$/;"	s
+authinfo_compare	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^inline int authinfo_compare(struct authinfo *info,$/;"	f
+authinfo_create_new	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authinfo * authinfo_create_new($/;"	f
+authinfo_default	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authinfo	authinfo_default	= {{NULL, NULL}, 1, "", auth_login, ""};$/;"	v	typeref:struct:authinfo
+authinfo_delete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^static inline void authinfo_delete(struct authinfo *info){$/;"	f	file:
+authinfo_find_in_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authinfo * authinfo_find_in_list($/;"	f
+authinfo_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^LIST		authinfo_list		= STATIC_LIST_INITIALIZER(authinfo_list);$/;"	v
+authinfo_release	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^void authinfo_release(struct authinfo *info){$/;"	f
+authinfo_store_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authinfo * authinfo_store_list($/;"	f
+authitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authitem{$/;"	s	file:
+authitem_create_item	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authitem* authitem_create_item(const char *name){$/;"	f
+authitem_delete_item	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^static inline void authitem_delete_item(struct authitem *item){$/;"	f	file:
+authitem_delete_obsolete_items	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^void authitem_delete_obsolete_items(struct authitem *item, time_t threshold){$/;"	f
+authitem_find_subitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^int authitem_find_subitem(struct authitem *item, const char *name){$/;"	f
+authitem_get_subitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authitem * authitem_get_subitem($/;"	f
+authitem_insert_subitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^int authitem_insert_subitem(struct authitem *item,$/;"	f
+authroot	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^struct authitem	authroot		= {NULL, (time_t) 0, NULL, {0, 0, NULL}};$/;"	v	typeref:struct:authitem
+bufsize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			bufsize;$/;"	m	struct:smb_conn_getxattr_query
+bufsize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			bufsize;$/;"	m	struct:smb_conn_listxattr_query
+bufsize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			bufsize;$/;"	m	struct:smb_conn_rw_query
+bufsize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			bufsize;$/;"	m	struct:smb_conn_setxattr_query
+bufsize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    ssize_t			bufsize;$/;"	m	struct:smb_conn_buf_reply
+by_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^static map_byname by_name;$/;"	v	file:
+by_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^static map_bytime by_time;$/;"	v	file:
+cache_life	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^static size_t cache_life = 2;$/;"	v	file:
+case_sensitive	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	case_sensitive;	\/\/ is name case sensitive?$/;"	m	struct:stat_workaround	file:
+case_sensitive	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	case_sensitive;	\/\/ is predefined name case sensitive?$/;"	m	struct:stat_workaround_predefined	file:
+charset_buf	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char	charset_buf[CHARSET_BUF_SIZE];$/;"	v
+charset_hex_digit	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char	charset_hex_digit[]	= "0123456789ABCDEF";$/;"	v
+charset_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^int charset_init(const char *local, const char *samba){$/;"	f
+charset_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^int    charset_init(const char *local, const char *samba);$/;"	p
+charset_local2samba	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^iconv_t charset_local2samba	= (iconv_t) (-1);$/;"	v
+charset_local2smb	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_local2smb(const char *src){$/;"	f
+charset_local2smb	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^char * charset_local2smb(const char *src);$/;"	p
+charset_local2smb_r	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_local2smb_r(const char *src, char *dst, size_t dst_len){$/;"	f
+charset_local2smb_r	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^char * charset_local2smb_r(const char *src, char *dest, size_t dest_size);$/;"	p
+charset_local_to_samba	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_local_to_samba(iconv_t cd,$/;"	f
+charset_samba2local	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^iconv_t charset_samba2local	= (iconv_t) (-1);$/;"	v
+charset_samba_to_local	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_samba_to_local(iconv_t cd,$/;"	f
+charset_smb2local	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_smb2local(const char *src){$/;"	f
+charset_smb2local	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^char * charset_smb2local(const char *src);$/;"	p
+charset_smb2local_r	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.c	/^char * charset_smb2local_r(const char *src, char *dst, size_t dst_len){$/;"	f
+charset_smb2local_r	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/charset.h	/^char * charset_smb2local_r(const char *src, char *dest, size_t dest_size);$/;"	p
+check_negcache	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^int check_negcache(const char *url)$/;"	f
+check_negcache	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.h	/^int check_negcache(const char *url);$/;"	p
+check_samba_version	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^void check_samba_version(void){$/;"	f
+child_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^	int			child_cnt;	\/\/ number of subitem$/;"	m	struct:authitem::__anon1	file:
+child_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    int			child_cnt;	\/\/ group: subitems in group$/;"	m	struct:smbitem::__anon2::__anon4
+child_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^    int		child_fd;$/;"	m	struct:process_rec	file:
+child_pid	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^    pid_t	child_pid;$/;"	m	struct:process_rec	file:
+childs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^	struct authitem		**childs;	\/\/ sorted list of subitems$/;"	m	struct:authitem::__anon1	typeref:struct:authitem::__anon1::authitem	file:
+childs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    struct smbitem	**childs;	\/\/ group: sorted list of subitems$/;"	m	struct:smbitem::__anon2::__anon4	typeref:struct:smbitem::__anon2::__anon4::smbitem
+common_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^int		common_debug_level	= 0;$/;"	v
+common_debug_print	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^void common_debug_print(int level, const char *fmt, ...){$/;"	f
+common_get_smbnetfs_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^int common_get_smbnetfs_debug_level(void){$/;"	f
+common_get_smbnetfs_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^int  common_get_smbnetfs_debug_level(void);$/;"	p
+common_logfile	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^char		common_logfile[256]	= "";$/;"	v
+common_print_backtrace	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^void common_print_backtrace(void){$/;"	f
+common_print_backtrace	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^void common_print_backtrace(void);$/;"	p
+common_set_log_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^int common_set_log_file(const char *logfile){$/;"	f
+common_set_log_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^int  common_set_log_file(const char *logfile);$/;"	p
+common_set_smbnetfs_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^int common_set_smbnetfs_debug_level(int level){$/;"	f
+common_set_smbnetfs_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^int  common_set_smbnetfs_debug_level(int level);$/;"	p
+common_stdlog	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^FILE*		common_stdlog		= NULL;$/;"	v
+config_cmd_opts	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^char		**config_cmd_opts	= NULL;$/;"	v
+config_cmd_opts	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^char		**config_cmd_opts	= NULL;$/;"	v
+config_cmd_opts_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int		config_cmd_opts_cnt	= 0;$/;"	v
+config_cmd_opts_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int		config_cmd_opts_cnt	= 0;$/;"	v
+config_cmd_opts_max_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int		config_cmd_opts_max_cnt	= 32;$/;"	v
+config_cmd_opts_max_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int		config_cmd_opts_max_cnt	= 32;$/;"	v
+config_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^char		config_dir[2048]	= "\/";$/;"	v
+config_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^char		config_dir[2048]	= "\/";$/;"	v
+config_dir_postfix	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^const char	*config_dir_postfix	= "\/.smb";$/;"	v
+config_dir_postfix	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^const char	*config_dir_postfix	= "\/.smb";$/;"	v
+config_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^char		config_file[256]	= "smbnetfs.conf";$/;"	v
+config_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^char		config_file[256]	= "smbnetfs.conf";$/;"	v
+config_read_mode	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^enum config_read_mode{$/;"	g	file:
+config_read_mode	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^enum config_read_mode{$/;"	g	file:
+conn_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    int				conn_fd;$/;"	m	struct:smb_conn_ctx
+conn_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				conn_fd;$/;"	m	struct:smb_conn_srv_ctx
+ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    struct smb_conn_ctx		*ctx;		\/\/ smb_conn context$/;"	m	struct:smb_conn_file	typeref:struct:smb_conn_file::smb_conn_ctx
+d_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    char			d_name[MAX_FILENAME_LEN + 1];$/;"	m	struct:smb_conn_dirent_rec
+data_byname	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    data_byname(int err): time_it(0), error(err) {}$/;"	f	struct:data_byname
+data_byname	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^struct data_byname$/;"	s	file:
+debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				debug_level;$/;"	m	struct:smb_conn_message_req
+debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				debug_level;$/;"	m	struct:smb_conn_query_hdr
+debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				debug_level;$/;"	m	struct:smb_conn_srv_ctx
+delete_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^struct delete_name$/;"	s	file:
+depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	depth;		\/\/ calculated from the path$/;"	m	struct:stat_workaround_exception	file:
+depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	depth;		\/\/ name search depth$/;"	m	struct:stat_workaround	file:
+depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	depth;		\/\/ name search depth$/;"	m	struct:stat_workaround_predefined	file:
+domain	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^	const char			*domain;$/;"	m	struct:req_data	file:
+domain	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^    char	*domain;$/;"	m	struct:gnome_keyring_authinfo
+domain	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^    char			*domain;$/;"	m	struct:authinfo
+domain_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			domain_offs;$/;"	m	struct:smb_conn_passwd
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^    LIST			entries;$/;"	m	struct:authinfo
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^    LIST	entries;$/;"	m	struct:process_rec	file:
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^    LIST		entries;$/;"	m	struct:samba_ctx	file:
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    LIST			entries;$/;"	m	struct:smb_conn_file
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	LIST	entries;$/;"	m	struct:stat_workaround	file:
+entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	LIST	entries;$/;"	m	struct:stat_workaround_exception	file:
+errno_value	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				errno_value;$/;"	m	struct:smb_conn_reply_hdr
+error	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    int error;$/;"	m	struct:data_byname	file:
+event_config_update_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int		event_config_update_period	= 0;$/;"	v
+event_destroy	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^static void event_destroy(void *private_data){$/;"	f	file:
+event_ev_thread_id	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^pthread_t	event_ev_thread_id;$/;"	v
+event_get_query_browser_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_get_query_browser_flag(void){$/;"	f
+event_get_smb_tree_elements_ttl	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_get_smb_tree_elements_ttl(void){$/;"	f
+event_get_time_step	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_get_time_step(void){$/;"	f
+event_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^static void* event_init(struct fuse_conn_info *conn){$/;"	f	file:
+event_is_time_for_config_update	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_is_time_for_config_update(void){$/;"	f
+event_is_time_for_smb_tree_scan	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_is_time_for_smb_tree_scan(void){$/;"	f
+event_last_config_update	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^time_t		event_last_config_update	= (time_t) 0;$/;"	v
+event_last_smb_tree_scan	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^time_t		event_last_smb_tree_scan	= (time_t) 0;$/;"	v
+event_query_browser_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int		event_query_browser_flag	= 1;$/;"	v
+event_reread_config	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_reread_config(void){$/;"	f
+event_scan_samba_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_scan_samba_group(const char *group){$/;"	f
+event_scan_smb_root	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_scan_smb_root(void){$/;"	f
+event_scan_smb_tree	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_scan_smb_tree(void){$/;"	f
+event_scan_smb_tree	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^void event_scan_smb_tree(void);$/;"	p
+event_set_config_update_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_set_config_update_period(int period){$/;"	f
+event_set_config_update_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^int  event_set_config_update_period(int period);$/;"	p
+event_set_event_handler	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_set_event_handler(struct fuse_operations *file_oper){$/;"	f
+event_set_event_handler	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^void event_set_event_handler(struct fuse_operations *file_oper);$/;"	p
+event_set_last_config_update	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_set_last_config_update(time_t update_time){$/;"	f
+event_set_last_smb_tree_scan	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void event_set_last_smb_tree_scan(time_t scan_time){$/;"	f
+event_set_query_browser_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_set_query_browser_flag(int flag){$/;"	f
+event_set_query_browser_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^int  event_set_query_browser_flag(int flag);$/;"	p
+event_set_smb_tree_elements_ttl	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_set_smb_tree_elements_ttl(int ttl){$/;"	f
+event_set_smb_tree_elements_ttl	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^int  event_set_smb_tree_elements_ttl(int ttl);$/;"	p
+event_set_smb_tree_scan_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_set_smb_tree_scan_period(int period){$/;"	f
+event_set_smb_tree_scan_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^int  event_set_smb_tree_scan_period(int period);$/;"	p
+event_set_time_step	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int event_set_time_step(int step){$/;"	f
+event_set_time_step	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.h	/^int  event_set_time_step(int step);$/;"	p
+event_smb_thread_id	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^pthread_t	event_smb_thread_id;$/;"	v
+event_smb_tree_elements_ttl	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int		event_smb_tree_elements_ttl	= 900;$/;"	v
+event_smb_tree_scan_period	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int		event_smb_tree_scan_period	= 300;$/;"	v
+event_thread	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void* event_thread(void *data){$/;"	f
+event_time_step	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^int		event_time_step			= 10;$/;"	v
+event_update_smb_tree_thread	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^void* event_update_smb_tree_thread(void *data){$/;"	f
+expired	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    gboolean		expired;$/;"	m	struct:req_timeout	file:
+fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^    int				fd;$/;"	m	struct:smb_conn_srv_fd
+first_list_elem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline LIST* first_list_elem(LIST *list){$/;"	f
+flags	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				flags;$/;"	m	struct:smb_conn_open_query
+flags	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				flags;$/;"	m	struct:smb_conn_setxattr_query
+function_check_xattr_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^inline int function_check_xattr_name(const char *name){$/;"	f
+function_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_chmod(const char *path, mode_t mode){$/;"	f	file:
+function_chown	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_chown(const char *path, uid_t uid, gid_t gid){$/;"	f	file:
+function_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_close(const char *path, struct fuse_file_info *fi){$/;"	f	file:
+function_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_closedir(const char *path, struct fuse_file_info *fi){$/;"	f	file:
+function_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_creat(const char *path, mode_t mode,$/;"	f	file:
+function_free_space_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^size_t		function_free_space_size	= 0;$/;"	v
+function_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_fstat(const char *path, struct stat *stbuf,$/;"	f	file:
+function_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_ftruncate(const char *path, off_t size,$/;"	f	file:
+function_get_dollar_share_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_get_dollar_share_visibility(void){$/;"	f
+function_get_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^inline samba_fd function_get_fd(struct fuse_file_info *fi){$/;"	f
+function_get_free_space_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^size_t function_get_free_space_size(void){$/;"	f
+function_get_hidden_hosts_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_get_hidden_hosts_visibility(void){$/;"	f
+function_get_quiet_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_get_quiet_flag(void){$/;"	f
+function_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_getxattr(const char *path, const char *name,$/;"	f	file:
+function_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_listxattr(const char *path, char *list, size_t size){$/;"	f	file:
+function_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_mkdir(const char *path, mode_t mode){$/;"	f	file:
+function_mknod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_mknod(const char *path, mode_t mode, dev_t rdev){$/;"	f	file:
+function_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_open(const char *path, struct fuse_file_info *fi){$/;"	f	file:
+function_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_opendir(const char *path, struct fuse_file_info *fi){$/;"	f	file:
+function_quiet_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int		function_quiet_flag		= 1;$/;"	v
+function_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_read(const char *path, char *buf, size_t size, off_t offset,$/;"	f	file:
+function_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_readdir(const char *path, void *buf, fuse_fill_dir_t filler,$/;"	f	file:
+function_readlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_readlink(const char *path, char *buf, size_t size){$/;"	f	file:
+function_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_removexattr(const char *path, const char *name){$/;"	f	file:
+function_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_rename(const char *from, const char *to){$/;"	f	file:
+function_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_rmdir(const char *path){$/;"	f	file:
+function_set_dollar_share_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_set_dollar_share_visibility(int flag){$/;"	f
+function_set_dollar_share_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^int function_set_dollar_share_visibility(int flag);$/;"	p
+function_set_free_space_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_set_free_space_size(size_t blocks_count){$/;"	f
+function_set_free_space_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^int function_set_free_space_size(size_t blocks_count);$/;"	p
+function_set_hidden_hosts_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_set_hidden_hosts_visibility(int flag){$/;"	f
+function_set_hidden_hosts_visibility	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^int function_set_hidden_hosts_visibility(int flag);$/;"	p
+function_set_quiet_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int function_set_quiet_flag(int flag){$/;"	f
+function_set_quiet_flag	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^int function_set_quiet_flag(int flag);$/;"	p
+function_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_setxattr(const char *path, const char *name,$/;"	f	file:
+function_show_dollar_shares	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int		function_show_dollar_shares	= 0;$/;"	v
+function_show_hidden_hosts	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^int		function_show_hidden_hosts	= 0;$/;"	v
+function_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_stat(const char *path, struct stat *stbuf){$/;"	f	file:
+function_statfs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_statfs(const char *path, struct statvfs *stbuf){$/;"	f	file:
+function_store_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^inline void function_store_fd(struct fuse_file_info *fi, samba_fd fd){$/;"	f
+function_truncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_truncate(const char *path, off_t size){$/;"	f	file:
+function_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_unlink(const char *path){$/;"	f	file:
+function_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_utimes(const char *path, struct utimbuf *buffer){$/;"	f	file:
+function_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^static int function_write(const char *path, const char *buf, size_t size,$/;"	f	file:
+get_default_rw_block_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^inline size_t get_default_rw_block_size(void){$/;"	f
+gnome_keyring	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^enum gnome_keyring_status	gnome_keyring	 = GNOME_KEYRING_NOT_AVAILABLE;$/;"	v	typeref:enum:gnome_keyring_status
+gnome_keyring_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^struct gnome_keyring_authinfo{$/;"	s
+gnome_keyring_done	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^void gnome_keyring_done(void){$/;"	f
+gnome_keyring_done	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^void gnome_keyring_done(void);$/;"	p
+gnome_keyring_enable	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^int gnome_keyring_enable(int state){$/;"	f
+gnome_keyring_enable	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^int  gnome_keyring_enable(int state);$/;"	p
+gnome_keyring_free_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^void gnome_keyring_free_authinfo(struct gnome_keyring_authinfo* info){$/;"	f
+gnome_keyring_free_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^void gnome_keyring_free_authinfo(struct gnome_keyring_authinfo*);$/;"	p
+gnome_keyring_get_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^struct gnome_keyring_authinfo * gnome_keyring_get_authinfo($/;"	f
+gnome_keyring_get_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^struct gnome_keyring_authinfo* gnome_keyring_get_authinfo($/;"	p
+gnome_keyring_get_list_callback	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^void gnome_keyring_get_list_callback(GnomeKeyringResult result, GList *list, gpointer data){$/;"	f
+gnome_keyring_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^void gnome_keyring_init(void){$/;"	f
+gnome_keyring_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^void gnome_keyring_init(void);$/;"	p
+gnome_keyring_set_request_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^int gnome_keyring_set_request_timeout(int timeout){$/;"	f
+gnome_keyring_set_request_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^int  gnome_keyring_set_request_timeout(int timeout);$/;"	p
+gnome_keyring_status	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^enum gnome_keyring_status{$/;"	g	file:
+gnome_keyring_update_authinfo	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^struct gnome_keyring_authinfo * gnome_keyring_update_authinfo($/;"	f
+info	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^	struct gnome_keyring_authinfo	*info;$/;"	m	struct:req_data	typeref:struct:req_data::gnome_keyring_authinfo	file:
+info	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^    struct authinfo		*info;$/;"	m	struct:authitem	typeref:struct:authitem::authinfo	file:
+init_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void init_list(LIST *list){$/;"	f
+insert_to_list_after	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void insert_to_list_after(LIST *list, LIST *elem, LIST *new_elem){$/;"	f
+insert_to_list_before	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void insert_to_list_before(LIST *list, LIST *elem, LIST *new_elem){$/;"	f
+is_hidden	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    int			is_hidden;	\/\/ host: is item hidden? $/;"	m	struct:smbitem::__anon2::__anon3
+is_list_empty	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline int is_list_empty(LIST *list){$/;"	f
+is_valid_list_elem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline int is_valid_list_elem(LIST *list, LIST *elem){$/;"	f
+it_byname	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^typedef map_byname::iterator it_byname;$/;"	t	file:
+it_bytime	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^typedef map_bytime::iterator it_bytime;$/;"	t	file:
+last_list_elem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline LIST* last_list_elem(LIST *list){$/;"	f
+len	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	len;		\/\/ calculated from the name$/;"	m	struct:stat_workaround	file:
+len	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	int	len;		\/\/ calculated from the path$/;"	m	struct:stat_workaround_exception	file:
+linkpath	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    char		*linkpath;		\/\/ link: link value$/;"	m	struct:smbitem::__anon2::__anon5
+list_entry	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^#define list_entry(/;"	d
+local_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    const char			*local_charset;$/;"	m	struct:smb_conn_srv_ctx
+lock	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^static RWLock lock;$/;"	v	file:
+lock_	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    pthread_rwlock_t lock_;$/;"	m	class:RWLock	file:
+lock_	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    pthread_rwlock_t& lock_;$/;"	m	class:RGuard	file:
+lock_	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    pthread_rwlock_t& lock_;$/;"	m	class:WGuard	file:
+loop	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static GMainLoop		*loop		 = NULL;$/;"	v	file:
+m_auth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^pthread_mutex_t	m_auth			= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_auth_gnome	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^pthread_mutex_t			m_auth_gnome	 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_common	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^pthread_mutex_t	m_common		= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_evthread	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/event.c	/^pthread_mutex_t	m_evthread			= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_function	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^pthread_mutex_t	m_function		= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_process	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^pthread_mutex_t	m_process		= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_samba	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^pthread_mutex_t	m_samba			= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_smb_conn	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^pthread_mutex_t	m_smb_conn			= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_smb_conn	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^pthread_mutex_t	m_smb_conn			= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_smbitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^pthread_mutex_t m_smbitem		= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m_stat_workaround	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^pthread_mutex_t m_stat_workaround		= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+main	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^int main(int argc, char *argv[]){$/;"	f
+map_byname	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^typedef map<string, data_byname> map_byname;$/;"	t	file:
+map_bytime	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^typedef multimap<time_t, it_byname> map_bytime;$/;"	t	file:
+max_child_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^	int			max_child_cnt;	\/\/ maximum number of subitem$/;"	m	struct:authitem::__anon1	file:
+max_child_cnt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    int			max_child_cnt;	\/\/ group: maximum number of smbitems$/;"	m	struct:smbitem::__anon2::__anon4
+max_req_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^int				max_req_timeout	 = 500;	\/* in milliseconds *\/$/;"	v
+mode	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    mode_t			mode;$/;"	m	struct:smb_conn_open_query
+mode	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    mode_t			mode;$/;"	m	struct:smb_conn_url_mode_query
+msg_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			msg_offs;$/;"	m	struct:smb_conn_message_req
+mutex	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    pthread_mutex_t		mutex;$/;"	m	struct:smb_conn_ctx
+name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^    char			*name;		\/\/ item name$/;"	m	struct:authitem	file:
+name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^    char		name[128];$/;"	m	struct:samba_ctx	file:
+name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    char			*name;		\/\/ item name$/;"	m	struct:smbitem
+name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	char	*name;		\/\/ predefined name to be workarounded$/;"	m	struct:stat_workaround_predefined	file:
+name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	char	name[1];	\/\/ name to be workarounded$/;"	m	struct:stat_workaround	file:
+name_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			name_offs;$/;"	m	struct:smb_conn_getxattr_query
+name_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			name_offs;$/;"	m	struct:smb_conn_removexattr_query
+name_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			name_offs;$/;"	m	struct:smb_conn_setxattr_query
+new_url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			new_url_offs;$/;"	m	struct:smb_conn_rename_query
+next	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^    struct __LIST	*next;$/;"	m	struct:__LIST	typeref:struct:__LIST::__LIST
+offset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    off_t			offset;$/;"	m	struct:smb_conn_ftruncate_query
+offset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    off_t			offset;$/;"	m	struct:smb_conn_rw_query
+offset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^    off_t			offset;$/;"	m	struct:smb_conn_srv_fd
+old_url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			old_url_offs;$/;"	m	struct:smb_conn_rename_query
+operator ()	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    void operator() (map_bytime::value_type& n)$/;"	f	struct:delete_name
+operator pthread_rwlock_t&	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    operator pthread_rwlock_t&() { return lock_; }$/;"	f	class:RWLock
+parent_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^	    struct smbitem	*parent_group;	\/\/ host: pointer parent group$/;"	m	struct:smbitem::__anon2::__anon3	typeref:struct:smbitem::__anon2::__anon3::smbitem
+password	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^    char	*password;$/;"	m	struct:gnome_keyring_authinfo
+password	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^    char			*password;$/;"	m	struct:authinfo
+password_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			password_offs;$/;"	m	struct:smb_conn_passwd
+path	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	char	path[1];	\/\/ exception path$/;"	m	struct:stat_workaround_exception	file:
+pid	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    pid_t			pid;$/;"	m	struct:smb_conn_message_req
+prev	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^    struct __LIST	*prev;$/;"	m	struct:__LIST	typeref:struct:__LIST::__LIST
+print_help	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^void print_help(struct fuse_args *outargs){$/;"	f
+process_cleanup_from_zombies	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^void process_cleanup_from_zombies(void){$/;"	f
+process_cleanup_from_zombies	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^void process_cleanup_from_zombies(void);$/;"	p
+process_disable_new_smb_conn_starting	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^void process_disable_new_smb_conn_starting(void){$/;"	f
+process_disable_new_smb_conn_starting	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^void process_disable_new_smb_conn_starting(void);$/;"	p
+process_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_init(void){$/;"	f
+process_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_init(void);$/;"	p
+process_is_smb_conn_alive	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_is_smb_conn_alive(int fd){$/;"	f
+process_is_smb_conn_alive	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_is_smb_conn_alive(int fd);$/;"	p
+process_kill_all	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^void process_kill_all(void){$/;"	f
+process_kill_all	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^void process_kill_all(void);$/;"	p
+process_kill_by_smb_conn_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^void process_kill_by_smb_conn_fd(int fd){$/;"	f
+process_kill_by_smb_conn_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^void process_kill_by_smb_conn_fd(int fd);$/;"	p
+process_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^LIST		process_list		= STATIC_LIST_INITIALIZER(process_list);$/;"	v
+process_rec	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^struct process_rec{$/;"	s	file:
+process_server_listen_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int	process_server_listen_timeout			= 300;$/;"	v
+process_server_local_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^char	process_server_local_charset[CHARSET_LEN]	= "UTF-8";$/;"	v
+process_server_samba_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^char	process_server_samba_charset[CHARSET_LEN]	= "UTF-8";$/;"	v
+process_server_smb_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int	process_server_smb_debug_level			= 0;$/;"	v
+process_set_server_listen_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_set_server_listen_timeout(int timeout){$/;"	f
+process_set_server_listen_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_set_server_listen_timeout(int timeout);$/;"	p
+process_set_server_local_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_set_server_local_charset(const char *charset){$/;"	f
+process_set_server_local_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_set_server_local_charset(const char *charset);$/;"	p
+process_set_server_samba_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_set_server_samba_charset(const char *charset){$/;"	f
+process_set_server_samba_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_set_server_samba_charset(const char *charset);$/;"	p
+process_set_server_smb_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_set_server_smb_debug_level(int level){$/;"	f
+process_set_server_smb_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_set_server_smb_debug_level(int level);$/;"	p
+process_start_enabled	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int	process_start_enabled				= 1;$/;"	v
+process_start_new_smb_conn	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^int process_start_new_smb_conn(char *shmem_ptr, size_t shmem_size){$/;"	f
+process_start_new_smb_conn	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.h	/^int  process_start_new_smb_conn(char *shmem_ptr, size_t shmem_size);$/;"	p
+process_system_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/process.c	/^char	process_system_charset[CHARSET_LEN]		= "UTF-8";$/;"	v
+prototypes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+query_cmd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    enum smb_conn_cmd		query_cmd;$/;"	m	struct:smb_conn_query_hdr	typeref:enum:smb_conn_query_hdr::smb_conn_cmd
+query_len	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			query_len;$/;"	m	struct:smb_conn_query_hdr
+reconfigure_add_cmd_opt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_add_cmd_opt(const char *option){$/;"	f
+reconfigure_add_cmd_opt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_add_cmd_opt(const char *option){$/;"	f
+reconfigure_analyse_cmdline_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_analyse_cmdline_option(const char *option, char *value){$/;"	f
+reconfigure_analyse_cmdline_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_analyse_cmdline_option(const char *option, char *value){$/;"	f
+reconfigure_analyse_cmdline_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^int  reconfigure_analyse_cmdline_option(const char *option, char *value);$/;"	p
+reconfigure_analyse_simple_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_analyse_simple_option(const char *option, char *value, int flags){$/;"	f
+reconfigure_analyse_simple_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_analyse_simple_option(const char *option, char *value, int flags){$/;"	f
+reconfigure_find_cmd_opt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_find_cmd_opt(const char *option){$/;"	f
+reconfigure_find_cmd_opt	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_find_cmd_opt(const char *option){$/;"	f
+reconfigure_get_boolean	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_get_boolean(char *value, int *result){$/;"	f
+reconfigure_get_boolean	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_get_boolean(char *value, int *result){$/;"	f
+reconfigure_get_number	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_get_number(char *value, int *result){$/;"	f
+reconfigure_get_number	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_get_number(char *value, int *result){$/;"	f
+reconfigure_get_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_get_size(char *value, size_t *result){$/;"	f
+reconfigure_get_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_get_size(char *value, size_t *result){$/;"	f
+reconfigure_parse_auth_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_parse_auth_option(char *value[], int count){$/;"	f
+reconfigure_parse_auth_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_parse_auth_option(char *value[], int count){$/;"	f
+reconfigure_parse_group_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_parse_group_option(char *value[], int count){$/;"	f
+reconfigure_parse_group_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_parse_group_option(char *value[], int count){$/;"	f
+reconfigure_parse_host_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_parse_host_option(char *value[], int count){$/;"	f
+reconfigure_parse_host_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_parse_host_option(char *value[], int count){$/;"	f
+reconfigure_parse_link_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_parse_link_option(char *value[], int count){$/;"	f
+reconfigure_parse_link_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_parse_link_option(char *value[], int count){$/;"	f
+reconfigure_parse_stat_workaround_name_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_parse_stat_workaround_name_option(char *value[], int count){$/;"	f
+reconfigure_parse_stat_workaround_name_option	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_parse_stat_workaround_name_option(char *value[], int count){$/;"	f
+reconfigure_read_config	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_read_config(int flags){$/;"	f
+reconfigure_read_config	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_read_config(int flags){$/;"	f
+reconfigure_read_config	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^int  reconfigure_read_config(int flags);$/;"	p
+reconfigure_read_config_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_read_config_file(const char *filename, int flags){$/;"	f
+reconfigure_read_config_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_read_config_file(const char *filename, int flags){$/;"	f
+reconfigure_set_boolean	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_set_boolean(char *value, int (*func)(int)){$/;"	f
+reconfigure_set_boolean	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_set_boolean(char *value, int (*func)(int)){$/;"	f
+reconfigure_set_config_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^void reconfigure_set_config_dir(const char *path){$/;"	f
+reconfigure_set_config_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^void reconfigure_set_config_dir(const char *path){$/;"	f
+reconfigure_set_default_login_and_configdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^void reconfigure_set_default_login_and_configdir(void){$/;"	f
+reconfigure_set_default_login_and_configdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^void reconfigure_set_default_login_and_configdir(void){$/;"	f
+reconfigure_set_default_login_and_configdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^void reconfigure_set_default_login_and_configdir(void);$/;"	p
+reconfigure_set_kb_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_set_kb_size(char *value, int (*func)(size_t)){$/;"	f
+reconfigure_set_kb_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_set_kb_size(char *value, int (*func)(size_t)){$/;"	f
+reconfigure_set_number	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_set_number(char *value, int (*func)(int)){$/;"	f
+reconfigure_set_number	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_set_number(char *value, int (*func)(int)){$/;"	f
+reconfigure_set_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_set_size(char *value, int (*func)(size_t)){$/;"	f
+reconfigure_set_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_set_size(char *value, int (*func)(size_t)){$/;"	f
+reconfigure_split_line	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^int reconfigure_split_line(const char *line,$/;"	f
+reconfigure_split_line	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^int reconfigure_split_line(const char *line,$/;"	f
+ref_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^    int				ref_count;$/;"	m	struct:authinfo
+ref_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^    int			ref_count;$/;"	m	struct:samba_ctx	file:
+ref_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    int				ref_count;	\/\/ the number of item references$/;"	m	struct:smbitem
+remove_from_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void remove_from_list(LIST *list, LIST *elem){$/;"	f
+reopen_cmd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    enum smb_conn_cmd		reopen_cmd;$/;"	m	struct:smb_conn_file	typeref:enum:smb_conn_file::smb_conn_cmd
+reopen_flags	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    int				reopen_flags;$/;"	m	struct:smb_conn_file
+replace_in_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/list.h	/^static inline void replace_in_list(LIST *list, LIST *elem, LIST *new_elem){$/;"	f
+reply_cmd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    enum smb_conn_cmd		reply_cmd;$/;"	m	struct:smb_conn_reply_hdr	typeref:enum:smb_conn_reply_hdr::smb_conn_cmd
+reply_len	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			reply_len;$/;"	m	struct:smb_conn_reply_hdr
+req_data	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^struct req_data{$/;"	s	file:
+req_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static struct req_timeout	*req_timeout	 = NULL;$/;"	v	typeref:struct:req_timeout	file:
+req_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^struct req_timeout{$/;"	s	file:
+req_timeout_check	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_check   (GSource *source);$/;"	p	file:
+req_timeout_check	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_check(GSource *source){$/;"	f	file:
+req_timeout_dispatch	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_dispatch(GSource *source, GSourceFunc callback,$/;"	p	file:
+req_timeout_dispatch	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_dispatch(GSource *source,$/;"	f	file:
+req_timeout_finalize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static void     req_timeout_finalize(GSource *source);$/;"	p	file:
+req_timeout_finalize	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static void req_timeout_finalize(GSource *source){$/;"	f	file:
+req_timeout_func	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static GSourceFuncs		req_timeout_func = {$/;"	v	file:
+req_timeout_prepare	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_prepare (GSource *source, gint *timeout);$/;"	p	file:
+req_timeout_prepare	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static gboolean req_timeout_prepare(GSource *source, gint *timeout){$/;"	f	file:
+request_timeout_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^static void request_timeout_init(struct req_timeout *req, int timeout){$/;"	f	file:
+samba	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^    struct smbitem	*samba;$/;"	m	struct:trees	typeref:struct:trees::smbitem	file:
+samba_add_new_context	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^struct samba_ctx * samba_add_new_context(const char *name, size_t len){$/;"	f
+samba_allocate_ctxs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^void samba_allocate_ctxs(void){$/;"	f
+samba_allocate_ctxs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^void     samba_allocate_ctxs(void);$/;"	p
+samba_charset	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    const char			*samba_charset;$/;"	m	struct:smb_conn_srv_ctx
+samba_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_chmod(const char *url, mode_t mode){$/;"	f
+samba_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_chmod      (const char *url, mode_t mode);$/;"	p
+samba_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_close(samba_fd fd){$/;"	f
+samba_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_close      (samba_fd fd);$/;"	p
+samba_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_closedir(samba_fd fd){$/;"	f
+samba_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_closedir   (samba_fd fd);$/;"	p
+samba_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^samba_fd samba_creat(const char *url, mode_t mode){$/;"	f
+samba_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^samba_fd samba_creat      (const char *url, mode_t mode);$/;"	p
+samba_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^struct samba_ctx{$/;"	s	file:
+samba_ctx_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int		samba_ctx_count		= 0;$/;"	v
+samba_ctx_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^LIST		samba_ctx_list		= STATIC_LIST_INITIALIZER(samba_ctx_list);$/;"	v
+samba_ctx_max_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int		samba_ctx_max_count	= 15;$/;"	v
+samba_destroy_unused_ctxs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^void samba_destroy_unused_ctxs(void){$/;"	f
+samba_destroy_unused_ctxs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^void     samba_destroy_unused_ctxs(void);$/;"	p
+samba_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^typedef smb_conn_fd	samba_fd;$/;"	t
+samba_find_by_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^struct samba_ctx * samba_find_by_name(const char *name, size_t len){$/;"	f
+samba_find_oldest	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^struct samba_ctx * samba_find_oldest(void){$/;"	f
+samba_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_fstat(samba_fd fd, struct stat *st){$/;"	f
+samba_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_fstat      (samba_fd fd, struct stat *st);$/;"	p
+samba_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_ftruncate(samba_fd fd, off_t size){$/;"	f
+samba_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_ftruncate  (samba_fd fd, off_t size);$/;"	p
+samba_get_context_status_string	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^const char* samba_get_context_status_string(void){$/;"	f
+samba_get_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^struct samba_ctx * samba_get_ctx(const char *url){$/;"	f
+samba_get_max_ctx_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_get_max_ctx_count(void){$/;"	f
+samba_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_getxattr(const char *url, const char *name,$/;"	f
+samba_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_getxattr   (const char *url, const char *name,$/;"	p
+samba_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_init(size_t max_rw_block_size){$/;"	f
+samba_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_init(size_t max_rw_block_size);$/;"	p
+samba_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_listxattr(const char *url, char *list, size_t size){$/;"	f
+samba_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_listxattr  (const char *url, char *list, size_t size);$/;"	p
+samba_max_rw_block_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^size_t		samba_max_rw_block_size	= (48 * 1024);$/;"	v
+samba_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_mkdir(const char *url, mode_t mode){$/;"	f
+samba_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_mkdir      (const char *url, mode_t mode);$/;"	p
+samba_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^samba_fd samba_open(const char *url, int flags, mode_t mode){$/;"	f
+samba_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^samba_fd samba_open       (const char *url, int flags, mode_t mode);$/;"	p
+samba_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^samba_fd samba_opendir(const char *url){$/;"	f
+samba_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^samba_fd samba_opendir    (const char *url);$/;"	p
+samba_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^ssize_t samba_read(samba_fd fd, off_t offset, void *buf, size_t bufsize){$/;"	f
+samba_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^ssize_t  samba_read       (samba_fd fd, off_t offset, void *buf, size_t bufsize);$/;"	p
+samba_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^ssize_t samba_readdir(samba_fd fd, void *buf, size_t bufsize){$/;"	f
+samba_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^ssize_t  samba_readdir    (samba_fd fd, void *buf, size_t bufsize);$/;"	p
+samba_release_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^void samba_release_ctx(struct samba_ctx *ctx){$/;"	f
+samba_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_removexattr(const char *url, const char *name){$/;"	f
+samba_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_removexattr(const char *url, const char *name);$/;"	p
+samba_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_rename(const char *old_url, const char *new_url){$/;"	f
+samba_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_rename     (const char *old_url, const char *new_url);$/;"	p
+samba_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_rmdir(const char *url){$/;"	f
+samba_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_rmdir      (const char *url);$/;"	p
+samba_set_context_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^void samba_set_context_name(struct samba_ctx *ctx, const char *name, size_t len){$/;"	f
+samba_set_max_ctx_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_set_max_ctx_count(int count){$/;"	f
+samba_set_max_ctx_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_set_max_ctx_count(int count);$/;"	p
+samba_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_setxattr(const char *url, const char *name,$/;"	f
+samba_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_setxattr   (const char *url, const char *name,$/;"	p
+samba_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_stat (const char *url, struct stat *st){$/;"	f
+samba_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_stat       (const char *url, struct stat *st);$/;"	p
+samba_touch_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^void samba_touch_ctx(struct samba_ctx *ctx){$/;"	f
+samba_touch_ctx_without_lock	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^inline void samba_touch_ctx_without_lock(struct samba_ctx *ctx){$/;"	f
+samba_try_to_remove_context	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_try_to_remove_context(struct samba_ctx *ctx){$/;"	f
+samba_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_unlink(const char *url){$/;"	f
+samba_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_unlink     (const char *url);$/;"	p
+samba_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^int samba_utimes(const char *url, struct timeval *tbuf){$/;"	f
+samba_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^int      samba_utimes     (const char *url, struct timeval *tbuf);$/;"	p
+samba_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^ssize_t samba_write(samba_fd fd, off_t offset, void *buf, size_t bufsize){$/;"	f
+samba_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.h	/^ssize_t  samba_write      (samba_fd fd, off_t offset, void *buf, size_t bufsize);$/;"	p
+server	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^	const char			*server;$/;"	m	struct:req_data	file:
+server_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			server_offs;$/;"	m	struct:smb_conn_passwd_req
+set_negcache	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^void set_negcache(const char *url, int error)$/;"	f
+set_negcache	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.h	/^void set_negcache(const char *url, int error);$/;"	p
+set_signal_reactions	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^void set_signal_reactions(void){$/;"	f
+share	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^	const char			*share;$/;"	m	struct:req_data	file:
+share_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			share_offs;$/;"	m	struct:smb_conn_passwd_req
+shmem_ptr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    char			*shmem_ptr;$/;"	m	struct:smb_conn_ctx
+shmem_ptr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    char			*shmem_ptr;$/;"	m	struct:smb_conn_srv_ctx
+shmem_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    size_t			shmem_size;$/;"	m	struct:smb_conn_ctx
+shmem_size	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			shmem_size;$/;"	m	struct:smb_conn_srv_ctx
+sig_handler	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^void sig_handler(int signum){$/;"	f
+smb_conn_buf_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_buf_reply{$/;"	s
+smb_conn_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_chmod(struct smb_conn_ctx *ctx, const char *url, mode_t mode){$/;"	f
+smb_conn_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_chmod(struct smb_conn_ctx *ctx, const char *url, mode_t mode){$/;"	f
+smb_conn_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_chmod(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_close(struct smb_conn_ctx *ctx, smb_conn_fd fd){$/;"	f
+smb_conn_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_close(struct smb_conn_ctx *ctx, smb_conn_fd fd){$/;"	f
+smb_conn_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_close(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_closedir(struct smb_conn_ctx *ctx, smb_conn_fd fd){$/;"	f
+smb_conn_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_closedir(struct smb_conn_ctx *ctx, smb_conn_fd fd){$/;"	f
+smb_conn_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_closedir(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_cmd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^enum smb_conn_cmd{$/;"	g
+smb_conn_connection_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^void smb_conn_connection_close(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_connection_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^void smb_conn_connection_close(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^smb_conn_fd smb_conn_creat(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^smb_conn_fd smb_conn_creat(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^smb_conn_fd smb_conn_creat(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^struct smb_conn_ctx{$/;"	s
+smb_conn_ctx_destroy	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_ctx_destroy(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_ctx_destroy	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_ctx_destroy(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_ctx_destroy	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_ctx_destroy(struct smb_conn_ctx *ctx);$/;"	p
+smb_conn_ctx_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_ctx_init(struct smb_conn_ctx *ctx, size_t shmem_size){$/;"	f
+smb_conn_ctx_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_ctx_init(struct smb_conn_ctx *ctx, size_t shmem_size){$/;"	f
+smb_conn_ctx_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_ctx_init(struct smb_conn_ctx *ctx, size_t shmem_size);$/;"	p
+smb_conn_ctx_to_samba_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^#define smb_conn_ctx_to_samba_ctx(/;"	d	file:
+smb_conn_dirent_rec	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_dirent_rec{$/;"	s
+smb_conn_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^typedef struct smb_conn_file*	smb_conn_fd;$/;"	t	typeref:struct:smb_conn_file
+smb_conn_fd_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_fd_query{$/;"	s
+smb_conn_fd_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_fd_reply{$/;"	s
+smb_conn_file	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^struct smb_conn_file{$/;"	s
+smb_conn_file_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    LIST			smb_conn_file_list;$/;"	m	struct:smb_conn_ctx
+smb_conn_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_fstat(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_fstat(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_fstat(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_ftruncate(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_ftruncate(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_ftruncate(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_ftruncate_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_ftruncate_query{$/;"	s
+smb_conn_get_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_get_max_passwd_query_count(void){$/;"	f
+smb_conn_get_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_get_max_passwd_query_count(void){$/;"	f
+smb_conn_get_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_get_max_retry_count(void){$/;"	f
+smb_conn_get_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_get_max_retry_count(void){$/;"	f
+smb_conn_get_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_get_server_reply_timeout(void){$/;"	f
+smb_conn_get_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_get_server_reply_timeout(void){$/;"	f
+smb_conn_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_getxattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_getxattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_getxattr(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_getxattr_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_getxattr_query{$/;"	s
+smb_conn_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_listxattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_listxattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_listxattr(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_listxattr_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_listxattr_query{$/;"	s
+smb_conn_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int		smb_conn_max_passwd_query_count	= 10;$/;"	v
+smb_conn_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int		smb_conn_max_passwd_query_count	= 10;$/;"	v
+smb_conn_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int		smb_conn_max_retry_count	= 3;$/;"	v
+smb_conn_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int		smb_conn_max_retry_count	= 0;$/;"	v
+smb_conn_message_req	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_message_req{$/;"	s
+smb_conn_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_mkdir(struct smb_conn_ctx *ctx, const char *url, mode_t mode){$/;"	f
+smb_conn_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_mkdir(struct smb_conn_ctx *ctx, const char *url, mode_t mode){$/;"	f
+smb_conn_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_mkdir(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_no_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_no_reply{$/;"	s
+smb_conn_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^smb_conn_fd smb_conn_open(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^smb_conn_fd smb_conn_open(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^smb_conn_fd smb_conn_open(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_open_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_open_query{$/;"	s
+smb_conn_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^smb_conn_fd smb_conn_opendir(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^smb_conn_fd smb_conn_opendir(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^smb_conn_fd smb_conn_opendir(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_passwd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_passwd{$/;"	s
+smb_conn_passwd_req	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_passwd_req{$/;"	s
+smb_conn_process_fd_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_process_fd_query($/;"	f
+smb_conn_process_fd_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_process_fd_query($/;"	f
+smb_conn_process_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_process_query($/;"	f
+smb_conn_process_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_process_query($/;"	f
+smb_conn_process_query_lowlevel	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_process_query_lowlevel($/;"	f
+smb_conn_process_query_lowlevel	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_process_query_lowlevel($/;"	f
+smb_conn_process_query_lowlevel_va	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_process_query_lowlevel_va($/;"	f
+smb_conn_process_query_lowlevel_va	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_process_query_lowlevel_va($/;"	f
+smb_conn_query_hdr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_query_hdr{$/;"	s
+smb_conn_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^ssize_t smb_conn_read(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^ssize_t smb_conn_read(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^ssize_t smb_conn_read(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^ssize_t smb_conn_readdir(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^ssize_t smb_conn_readdir(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^ssize_t smb_conn_readdir(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_removexattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_removexattr(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_removexattr(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_removexattr_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_removexattr_query{$/;"	s
+smb_conn_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_rename(struct smb_conn_ctx *ctx, const char *old_url, const char *new_url){$/;"	f
+smb_conn_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_rename(struct smb_conn_ctx *ctx, const char *old_url, const char *new_url){$/;"	f
+smb_conn_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_rename(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_rename_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_rename_query{$/;"	s
+smb_conn_reply_hdr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_reply_hdr{$/;"	s
+smb_conn_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_rmdir(struct smb_conn_ctx *ctx, const char *url){$/;"	f
+smb_conn_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_rmdir(struct smb_conn_ctx *ctx, const char *url){$/;"	f
+smb_conn_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_rmdir(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_rw_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_rw_query{$/;"	s
+smb_conn_send_password	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_send_password(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_send_password	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_send_password(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_send_password_base	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_send_password_base(struct smb_conn_ctx *ctx, const char *domain,$/;"	f
+smb_conn_send_password_base	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_send_password_base(struct smb_conn_ctx *ctx, const char *domain,$/;"	f
+smb_conn_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int		smb_conn_server_reply_timeout	= 60;$/;"	v
+smb_conn_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int		smb_conn_server_reply_timeout	= 60;$/;"	v
+smb_conn_set_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_set_max_passwd_query_count(int count){$/;"	f
+smb_conn_set_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_set_max_passwd_query_count(int count){$/;"	f
+smb_conn_set_max_passwd_query_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_set_max_passwd_query_count(int count);$/;"	p
+smb_conn_set_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_set_max_retry_count(int count){$/;"	f
+smb_conn_set_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_set_max_retry_count(int count){$/;"	f
+smb_conn_set_max_retry_count	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_set_max_retry_count(int count);$/;"	p
+smb_conn_set_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_set_server_reply_timeout(int timeout){$/;"	f
+smb_conn_set_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_set_server_reply_timeout(int timeout){$/;"	f
+smb_conn_set_server_reply_timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_set_server_reply_timeout(int timeout);$/;"	p
+smb_conn_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_setxattr(struct smb_conn_ctx *ctx, const char *url, const char *name,$/;"	f
+smb_conn_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_setxattr(struct smb_conn_ctx *ctx, const char *url, const char *name,$/;"	f
+smb_conn_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_setxattr(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_setxattr_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_setxattr_query{$/;"	s
+smb_conn_srv_auth_fn	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_auth_fn(SMBCCTX *ctx,$/;"	f
+smb_conn_srv_auth_fn_old	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_auth_fn_old($/;"	f
+smb_conn_srv_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_chmod(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_chmod	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_chmod      (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_mode_query    *query, size_t query_len);$/;"	p
+smb_conn_srv_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_close(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_close	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_close      (struct smb_conn_srv_ctx *ctx, struct smb_conn_fd_query          *query, size_t query_len);$/;"	p
+smb_conn_srv_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_closedir(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_closedir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_closedir   (struct smb_conn_srv_ctx *ctx, struct smb_conn_fd_query          *query, size_t query_len);$/;"	p
+smb_conn_srv_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_creat(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_creat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_creat      (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_mode_query    *query, size_t query_len);$/;"	p
+smb_conn_srv_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_srv_ctx{$/;"	s
+smb_conn_srv_debug_print	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_debug_print(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^typedef void *		smb_conn_srv_fd;$/;"	t
+smb_conn_srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^struct smb_conn_srv_fd{$/;"	s
+smb_conn_srv_fd_type	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^enum smb_conn_srv_fd_type{$/;"	g
+smb_conn_srv_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_fstat(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_fstat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_fstat      (struct smb_conn_srv_ctx *ctx, struct smb_conn_fd_query          *query, size_t query_len);$/;"	p
+smb_conn_srv_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_ftruncate(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_ftruncate  (struct smb_conn_srv_ctx *ctx, struct smb_conn_ftruncate_query   *query, size_t query_len);$/;"	p
+smb_conn_srv_get_url_from_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^inline const char* smb_conn_srv_get_url_from_query(const void *query, size_t url_offs){$/;"	f
+smb_conn_srv_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_getxattr(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_getxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_getxattr   (struct smb_conn_srv_ctx *ctx, struct smb_conn_getxattr_query    *query, size_t query_len);$/;"	p
+smb_conn_srv_listen	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^void smb_conn_srv_listen(struct smb_conn_srv_ctx *ctx);$/;"	p
+smb_conn_srv_listen	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_listen(struct smb_conn_srv_ctx *ctx){$/;"	f
+smb_conn_srv_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_listxattr(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_listxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_listxattr  (struct smb_conn_srv_ctx *ctx, struct smb_conn_listxattr_query   *query, size_t query_len);$/;"	p
+smb_conn_srv_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_mkdir(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_mkdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_mkdir      (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_mode_query    *query, size_t query_len);$/;"	p
+smb_conn_srv_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_open(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_open	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_open       (struct smb_conn_srv_ctx *ctx, struct smb_conn_open_query        *query, size_t query_len);$/;"	p
+smb_conn_srv_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_opendir(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_opendir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_opendir    (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_query         *query, size_t query_len);$/;"	p
+smb_conn_srv_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_read(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_read	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_read       (struct smb_conn_srv_ctx *ctx, struct smb_conn_rw_query          *query, size_t query_len);$/;"	p
+smb_conn_srv_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_readdir(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_readdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_readdir    (struct smb_conn_srv_ctx *ctx, struct smb_conn_rw_query          *query, size_t query_len);$/;"	p
+smb_conn_srv_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_removexattr(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_removexattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_removexattr(struct smb_conn_srv_ctx *ctx, struct smb_conn_removexattr_query *query, size_t query_len);$/;"	p
+smb_conn_srv_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_rename(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_rename	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_rename     (struct smb_conn_srv_ctx *ctx, struct smb_conn_rename_query      *query, size_t query_len);$/;"	p
+smb_conn_srv_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_rmdir(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_rmdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_rmdir      (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_query         *query, size_t query_len);$/;"	p
+smb_conn_srv_samba_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_samba_init(struct smb_conn_srv_ctx *srv_ctx){$/;"	f
+smb_conn_srv_send_msg	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^int smb_conn_srv_send_msg(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_send_msg	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^int smb_conn_srv_send_msg(struct smb_conn_srv_ctx *ctx,$/;"	p
+smb_conn_srv_send_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_send_reply(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_send_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_send_reply(struct smb_conn_srv_ctx *ctx,$/;"	p
+smb_conn_srv_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_setxattr(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_setxattr	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_setxattr   (struct smb_conn_srv_ctx *ctx, struct smb_conn_setxattr_query    *query, size_t query_len);$/;"	p
+smb_conn_srv_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_stat(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_stat       (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_query         *query, size_t query_len);$/;"	p
+smb_conn_srv_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_unlink(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_unlink     (struct smb_conn_srv_ctx *ctx, struct smb_conn_url_query         *query, size_t query_len);$/;"	p
+smb_conn_srv_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_utimes(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_utimes     (struct smb_conn_srv_ctx *ctx, struct smb_conn_utimes_query      *query, size_t query_len);$/;"	p
+smb_conn_srv_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^void smb_conn_srv_write(struct smb_conn_srv_ctx *ctx,$/;"	f
+smb_conn_srv_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^void smb_conn_srv_write      (struct smb_conn_srv_ctx *ctx, struct smb_conn_rw_query          *query, size_t query_len);$/;"	p
+smb_conn_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_stat(struct smb_conn_ctx *ctx, const char *url, struct stat *st){$/;"	f
+smb_conn_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_stat(struct smb_conn_ctx *ctx, , struct stat *st){$/;"	f
+smb_conn_stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_stat(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_stat_reply	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_stat_reply{$/;"	s
+smb_conn_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_unlink(struct smb_conn_ctx *ctx, const char *url){$/;"	f
+smb_conn_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_unlink(struct smb_conn_ctx *ctx, const char *url){$/;"	f
+smb_conn_unlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_unlink(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_up_if_broken	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_up_if_broken(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_up_if_broken	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_up_if_broken(struct smb_conn_ctx *ctx){$/;"	f
+smb_conn_url_mode_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_url_mode_query{$/;"	s
+smb_conn_url_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_url_query{$/;"	s
+smb_conn_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^int smb_conn_utimes(struct smb_conn_ctx *ctx, const char *url, struct timeval *tbuf){$/;"	f
+smb_conn_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^int smb_conn_utimes(struct smb_conn_ctx *ctx, const char *url, struct timeval *tbuf){$/;"	f
+smb_conn_utimes	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^int smb_conn_utimes(struct smb_conn_ctx *ctx,$/;"	p
+smb_conn_utimes_query	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^struct smb_conn_utimes_query{$/;"	s
+smb_conn_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/01-fix-compilation.patch/src/smb_conn.c	/^ssize_t smb_conn_write(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.c	/^ssize_t smb_conn_write(struct smb_conn_ctx *ctx,$/;"	f
+smb_conn_write	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^ssize_t smb_conn_write(struct smb_conn_ctx *ctx,$/;"	p
+smb_ctx	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/samba.c	/^    struct smb_conn_ctx	smb_ctx;$/;"	m	struct:samba_ctx	typeref:struct:samba_ctx::smb_conn_ctx	file:
+smb_debug_level	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				smb_debug_level;$/;"	m	struct:smb_conn_srv_ctx
+smb_oper	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.c	/^struct fuse_operations smb_oper = {$/;"	v	typeref:struct:fuse_operations
+smb_oper	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/function.h	/^extern	struct fuse_operations	smb_oper;$/;"	x
+smbc_ftruncate	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define	smbc_ftruncate(/;"	d	file:
+smbc_getOptionUserData	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define smbc_getOptionUserData(/;"	d	file:
+smbc_setDebug	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define	smbc_setDebug(/;"	d	file:
+smbc_setFunctionAuthDataWithContext	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define	smbc_setFunctionAuthDataWithContext(/;"	d	file:
+smbc_setOptionFallbackAfterKerberos	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define	smbc_setOptionFallbackAfterKerberos(/;"	d	file:
+smbc_setOptionUseKerberos	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define	smbc_setOptionUseKerberos(/;"	d	file:
+smbc_setOptionUserData	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.c	/^    #define smbc_setOptionUserData(/;"	d	file:
+smbc_type	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    unsigned int		smbc_type;	\/* see struct smbc_dirent from libsmbclient.h *\/$/;"	m	struct:smb_conn_dirent_rec
+smbitem	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^struct smbitem{$/;"	s
+smbitem_aquire_item	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^static inline void smbitem_aquire_item(struct smbitem *item){$/;"	f	file:
+smbitem_delete_item	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^static inline void smbitem_delete_item(struct smbitem *item){$/;"	f	file:
+smbitem_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^void smbitem_delete_obsolete(time_t threshold, enum smbitem_tree_t tree){$/;"	f
+smbitem_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^void                smbitem_delete_obsolete(time_t threshold,$/;"	p
+smbitem_delete_obsolete_items	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^void smbitem_delete_obsolete_items(struct smbitem *group, time_t threshold){$/;"	f
+smbitem_done	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^void smbitem_done(void){$/;"	f
+smbitem_done	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^void                smbitem_done(void);$/;"	p
+smbitem_find_in_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^inline int smbitem_find_in_group(struct smbitem *group, const char *name, int first){$/;"	f
+smbitem_find_in_group_wl	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_find_in_group_wl(struct smbitem *group, const char *name,$/;"	f
+smbitem_get_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_get_group(const char *host, char *buf, size_t size){$/;"	f
+smbitem_get_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_get_group(const char *host, char *buf, size_t size);$/;"	p
+smbitem_get_path_end	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^inline const char * smbitem_get_path_end(const char *path){$/;"	f
+smbitem_get_samba_groups	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct smbitem * smbitem_get_samba_groups(void){$/;"	f
+smbitem_get_samba_groups	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^struct smbitem *    smbitem_get_samba_groups(void);$/;"	p
+smbitem_getdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct smbitem * smbitem_getdir(const char *path){$/;"	f
+smbitem_getdir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^struct smbitem *    smbitem_getdir(const char *path);$/;"	p
+smbitem_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_init(void){$/;"	f
+smbitem_init	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_init(void);$/;"	p
+smbitem_insert_to_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_insert_to_group(struct smbitem *group, struct smbitem *item, int pos){$/;"	f
+smbitem_is_name_exist	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_is_name_exist(const char *name){$/;"	f
+smbitem_is_name_exist	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_is_name_exist(const char *name);$/;"	p
+smbitem_mkgroup	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_mkgroup(const char *path, enum smbitem_tree_t tree){$/;"	f
+smbitem_mkgroup	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_mkgroup(const char *path,$/;"	p
+smbitem_mkhost	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_mkhost(const char *path, const char *group,$/;"	f
+smbitem_mkhost	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_mkhost(const char *path,$/;"	p
+smbitem_mklink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_mklink(const char *path, const char *linkpath, enum smbitem_tree_t tree){$/;"	f
+smbitem_mklink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_mklink(const char *path,$/;"	p
+smbitem_new_group	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct smbitem* smbitem_new_group(const char *name){$/;"	f
+smbitem_new_host	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct smbitem* smbitem_new_host(const char *name, int is_hidden){$/;"	f
+smbitem_new_link	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct smbitem* smbitem_new_link(const char *name, const char *linkpath){$/;"	f
+smbitem_path_t	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^enum smbitem_path_t{$/;"	g
+smbitem_readlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^int smbitem_readlink(const char *path, char *buf, size_t size){$/;"	f
+smbitem_readlink	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^int                 smbitem_readlink(const char *path, char *buf, size_t size);$/;"	p
+smbitem_release_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^void smbitem_release_dir(struct smbitem *item){$/;"	f
+smbitem_release_dir	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^void                smbitem_release_dir(struct smbitem *item);$/;"	p
+smbitem_release_item	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^static void smbitem_release_item(struct smbitem *item){$/;"	f	file:
+smbitem_t	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^enum smbitem_t{$/;"	g
+smbitem_tree_t	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^enum smbitem_tree_t{$/;"	g
+smbitem_what_is	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^enum smbitem_path_t smbitem_what_is(const char *path){$/;"	f
+smbitem_what_is	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^enum smbitem_path_t smbitem_what_is(const char *path);$/;"	p
+smbnetfs_opt_proc	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/main.c	/^static int smbnetfs_opt_proc(void *data, const char *arg, int key, struct fuse_args *outargs){$/;"	f	file:
+smbnetfs_option_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/.pc/warning.diff/src/reconfigure.c	/^const char *smbnetfs_option_list =$/;"	v
+smbnetfs_option_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.c	/^const char *smbnetfs_option_list =$/;"	v
+smbnetfs_option_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/reconfigure.h	/^extern const char	*smbnetfs_option_list;$/;"	x
+srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    smb_conn_srv_fd		srv_fd;		\/\/ smb_conn_srv file descriptor$/;"	m	struct:smb_conn_file
+srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    smb_conn_srv_fd		srv_fd;$/;"	m	struct:smb_conn_fd_query
+srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    smb_conn_srv_fd		srv_fd;$/;"	m	struct:smb_conn_fd_reply
+srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    smb_conn_srv_fd		srv_fd;$/;"	m	struct:smb_conn_ftruncate_query
+srv_fd	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    smb_conn_srv_fd		srv_fd;$/;"	m	struct:smb_conn_rw_query
+start_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    struct timeval	start_time;$/;"	m	struct:req_timeout	typeref:struct:req_timeout::timeval	file:
+stat	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    struct stat			stat;$/;"	m	struct:smb_conn_stat_reply	typeref:struct:smb_conn_stat_reply::stat
+stat_workaround	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^struct stat_workaround{$/;"	s	file:
+stat_workaround_add_default_entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^void stat_workaround_add_default_entries(void){$/;"	f
+stat_workaround_add_default_entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^void stat_workaround_add_default_entries(void);$/;"	p
+stat_workaround_add_exception	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_add_exception(const char *path){$/;"	f
+stat_workaround_add_exception	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^int  stat_workaround_add_exception(const char *name);$/;"	p
+stat_workaround_add_exception_internal	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_add_exception_internal(const char *path){$/;"	f
+stat_workaround_add_exception_internal_low	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_add_exception_internal_low(const char *path, size_t len, int depth){$/;"	f
+stat_workaround_add_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_add_name(const char *name, int case_sensitive, int depth){$/;"	f
+stat_workaround_add_name	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^int  stat_workaround_add_name(const char *name, int case_sensitive, int depth);$/;"	p
+stat_workaround_add_name_internal	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_add_name_internal(const char *name, int case_sensitive, int depth){$/;"	f
+stat_workaround_check_path	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_check_path(const char *path, int min_depth){$/;"	f
+stat_workaround_default_depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int		stat_workaround_default_depth	= 3;$/;"	v
+stat_workaround_default_entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int		stat_workaround_default_entries	= 1;$/;"	v
+stat_workaround_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^void stat_workaround_delete_obsolete(time_t threshold){$/;"	f
+stat_workaround_delete_obsolete	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^void stat_workaround_delete_obsolete(time_t threshold);$/;"	p
+stat_workaround_enable_default_entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_enable_default_entries(int new_status){$/;"	f
+stat_workaround_enable_default_entries	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^int  stat_workaround_enable_default_entries(int new_status);$/;"	p
+stat_workaround_exception	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^struct stat_workaround_exception{$/;"	s	file:
+stat_workaround_exception_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^LIST		stat_workaround_exception_list	= STATIC_LIST_INITIALIZER(stat_workaround_exception_list);$/;"	v
+stat_workaround_is_name_ignored	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_is_name_ignored(const char *path){$/;"	f
+stat_workaround_is_name_ignored	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^int stat_workaround_is_name_ignored(const char *path);$/;"	p
+stat_workaround_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^LIST		stat_workaround_list		= STATIC_LIST_INITIALIZER(stat_workaround_list);$/;"	v
+stat_workaround_predefined	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^struct stat_workaround_predefined{$/;"	s	file:
+stat_workaround_predefined_list	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^struct stat_workaround_predefined	stat_workaround_predefined_list[] = {$/;"	v	typeref:struct:stat_workaround_predefined
+stat_workaround_set_default_depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^int stat_workaround_set_default_depth(int depth){$/;"	f
+stat_workaround_set_default_depth	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.h	/^int  stat_workaround_set_default_depth(int depth);$/;"	p
+strndup	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.c	/^char* strndup(const char *s, size_t n){$/;"	f
+strndup	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/common.h	/^  char* strndup(const char *s, size_t n);$/;"	p
+suitability	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^    int		suitability;$/;"	m	struct:gnome_keyring_authinfo
+tbuf	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    struct timeval		tbuf[2];$/;"	m	struct:smb_conn_utimes_query	typeref:struct:smb_conn_utimes_query::timeval
+time_it	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    void * time_it;$/;"	m	struct:data_byname	file:
+timeout	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    int				timeout;$/;"	m	struct:smb_conn_srv_ctx
+timeout_len	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.c	/^    gint		timeout_len;$/;"	m	struct:req_timeout	file:
+touch_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.c	/^    time_t			touch_time;	\/\/ item touch time$/;"	m	struct:authitem	file:
+touch_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    time_t			touch_time;	\/\/ item touch time $/;"	m	struct:smbitem
+touch_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	time_t	touch_time;	\/\/ struct touch time$/;"	m	struct:stat_workaround	file:
+touch_time	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/stat_workaround.c	/^	time_t	touch_time;	\/\/ struct touch time$/;"	m	struct:stat_workaround_exception	file:
+trees	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct trees	trees			= { NULL, NULL };$/;"	v	typeref:struct:trees
+trees	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^struct trees{$/;"	s	file:
+type	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_srv.h	/^    enum smb_conn_srv_fd_type	type;$/;"	m	struct:smb_conn_srv_fd	typeref:enum:smb_conn_srv_fd::smb_conn_srv_fd_type
+type	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.h	/^    enum smbitem_t		type;		\/\/ item type: comp\/link\/group$/;"	m	struct:smbitem	typeref:enum:smbitem::smbitem_t
+url	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn.h	/^    char			*url;		\/\/ samba url (without "smb:\/")$/;"	m	struct:smb_conn_file
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_getxattr_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_listxattr_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_open_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_removexattr_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_setxattr_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_url_mode_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_url_query
+url_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			url_offs;$/;"	m	struct:smb_conn_utimes_query
+user	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth-gnome-keyring.h	/^    char	*user;$/;"	m	struct:gnome_keyring_authinfo
+user	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/auth.h	/^    char			*user;$/;"	m	struct:authinfo
+user	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smbitem.c	/^    struct smbitem	*user;$/;"	m	struct:trees	typeref:struct:trees::smbitem	file:
+username_offs	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/smb_conn_proto.h	/^    size_t			username_offs;$/;"	m	struct:smb_conn_passwd
+~RGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    ~RGuard() { pthread_rwlock_unlock(&lock_); }$/;"	f	class:RGuard
+~RWLock	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    ~RWLock() { pthread_rwlock_destroy(&lock_); }$/;"	f	class:RWLock
+~WGuard	/home/midenok/src/smbnetfs/smbnetfs-0.5.3a-m/src/neg_cache.cc	/^    ~WGuard() { pthread_rwlock_unlock(&lock_); }$/;"	f	class:WGuard

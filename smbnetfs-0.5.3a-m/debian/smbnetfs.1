@@ -1,0 +1,160 @@
+.TH smbnetfs 1 "August 06, 2010"
+.SH NAME
+smbnetfs \- User-space filesystem for SMB/NMB (Windows) network servers and shares 
+.SH DESCRIPTION
+usage: smbnetfs mountpoint [options]
+.SS "general options:"
+.TP
+\fB\-o\fR opt,[opt...]
+mount options
+.TP
+\fB\-h\fR   \fB\-\-help\fR
+print help
+.TP
+\fB\-V\fR   \fB\-\-version\fR
+print version
+.SS "SMBNetFS options:"
+.TP
+\fB\-o\fR config=PATH
+path to config (~/.smb/smbnetfs.conf)
+.TP
+\fB\-o\fR smbnetfs_debug=N
+SMBNetFS debug level (N<=10)
+.TP
+\fB\-o\fR smb_debug_level=N
+Samba debug level (N<=10)
+.TP
+\fB\-o\fR log_file=PATH
+File to store SMBNetFS debug messages
+.TP
+\fB\-o\fR local_charset=CHARSET
+Local charset (autodetected)
+.TP
+\fB\-o\fR samba_charset=CHARSET
+Charset used by samba (utf-8)
+.TP
+\fB\-o\fR use_gnome_keyring=BOOL
+Enable/disable usage of gnome-keyring
+.TP
+\fB\-o\fR gnome_keyring_timeout=T
+auth retrieving timeout for gnome_keyring (500ms)
+.TP
+\fB\-o\fR max_rw_block_size=N
+Maximum size of r/w block in Kb (autodetected)
+.TP
+\fB\-o\fR smb_tree_scan_period=T
+Period of scanning samba network tree (300s)
+.TP
+\fB\-o\fR smb_tree_elements_ttl=T
+TTL of scanned elements in samba tree (900s)
+.TP
+\fB\-o\fR smb_query_browsers=BOOL
+Enable/disable scanning of samba tree (on)
+.TP
+\fB\-o\fR show_$_shares=BOOL
+Enable/disable showing of hidden shares (off)
+.TP
+\fB\-o\fR show_hidden_hosts=BOOL
+See in documentation (off)
+.TP
+\fB\-o\fR free_space_size=N
+Free space size in pages (0)
+.TP
+\fB\-o\fR quiet_flag=BOOL
+Do not fail on chown/chgroup (on)
+.TP
+\fB\-o\fR stat_workaround_depth=N
+konquerror and gnome termal hack (3)
+.TP
+\fB\-o\fR time_step=T
+Scheduler sleep interval (10s)
+.TP
+\fB\-o\fR config_update_period=T
+Configuration update interval (300s)
+.TP
+\fB\-o\fR max_ctx_count=N
+Maximum number of childs (15)
+.TP
+\fB\-o\fR max_retry_count=N
+Number of retries before fail (3)
+.TP
+\fB\-o\fR listen_timeout=T
+Child process inactivity timeout (300s)
+.TP
+\fB\-o\fR reply_timeout=T
+Child process reply timeout (30s)
+.TP
+\fB\-o\fR max_passwd_query_count=N
+See in documentation (10)
+.SS "FUSE options:"
+.TP
+\fB\-d\fR   \fB\-o\fR debug
+enable debug output (implies \fB\-f\fR)
+.TP
+\fB\-f\fR
+foreground operation
+.TP
+\fB\-s\fR
+disable multi\-threaded operation
+.TP
+\fB\-o\fR allow_other
+allow access to other users
+.TP
+\fB\-o\fR allow_root
+allow access to root
+.TP
+\fB\-o\fR nonempty
+allow mounts over non\-empty file/dir
+.HP
+\fB\-o\fR default_permissions enable permission checking by kernel
+.TP
+\fB\-o\fR fsname=NAME
+set filesystem name
+.TP
+\fB\-o\fR large_read
+issue large read requests (2.4 only)
+.TP
+\fB\-o\fR max_read=N
+set maximum size of read requests
+.TP
+\fB\-o\fR hard_remove
+immediate removal (don't hide files)
+.TP
+\fB\-o\fR use_ino
+let filesystem set inode numbers
+.TP
+\fB\-o\fR readdir_ino
+try to fill in d_ino in readdir
+.TP
+\fB\-o\fR direct_io
+use direct I/O
+.TP
+\fB\-o\fR kernel_cache
+cache files in kernel
+.TP
+\fB\-o\fR umask=M
+set file permissions (octal)
+.TP
+\fB\-o\fR uid=N
+set file owner
+.TP
+\fB\-o\fR gid=N
+set file group
+.TP
+\fB\-o\fR entry_timeout=T
+cache timeout for names (1.0s)
+.TP
+\fB\-o\fR negative_timeout=T
+cache timeout for deleted names (0.0s)
+.TP
+\fB\-o\fR attr_timeout=T
+cache timeout for attributes (1.0s)
+.SH FILES
+Please create configuration directory ~/.smb.  This
+directory should contain at least two files: smb.conf and
+smbnetfs.conf. You may copy smb.conf from the /etc/samba
+directory. You can find a sample of smbnetfs.conf in the 
+/etc directory.
+.SH AUTHOR
+This manual page was written by Varun Hiremath <varunhiremath@gmail.com>,
+for the Debian project (but may be used by others).

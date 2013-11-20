@@ -1,0 +1,131 @@
+smbnetfs (0.5.3a-1) unstable; urgency=low
+
+  * New upstream release
+  * Fixes FTBFS (Closes: #646498)
+  * d/control: Recommends: fuse [linux-any] (Closes: #634377)
+
+ -- Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>  Tue, 25 Oct 2011 01:24:03 +0400
+
+smbnetfs (0.5.3-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Add versioned Build-Depends:
+    libgnome-keyring-dev (>= 2.28)
+  * Update manpage
+  * Update NEWS file
+  * Bump Standards-Version to 3.9.1
+  * dpkg-source format 3.0 support
+
+ -- Mikhail Kshevetskiy <mikhail.kshevetskiy@gmail.com>  Sat, 07 Aug 2010 04:20:18 +0400
+
+smbnetfs (0.5.2-1) unstable; urgency=low
+
+  [ Mikhail Kshevetskiy ]
+  * New upstream release
+  * debian/control: Add versioned Build-Depends:
+    libsmbclient-dev (>= 3.2), libfuse-dev (>= 2.6)
+  * Update patches/datadir.diff
+  * Update manpage date
+  * Update NEWS and docs files
+
+  [ Varun Hiremath ]
+  * Set Mikhail Kshevetskiy as Maintainer
+  * Add myself to Uploaders, remove Torsten as requested
+  * Bump Standards-Version to 3.8.3
+  * Add debian/README.source to describe patch system
+
+ -- Varun Hiremath <varun@debian.org>  Thu, 05 Nov 2009 00:07:08 -0500
+
+smbnetfs (0.5.0~git2-1) unstable; urgency=low
+
+  * Update upstream tarball from git
+    (commit 4147d7f01e9381f03552712d9c112405c0e19ea4)
+  * Fixes important bugs (Closes: #503038)
+
+ -- Varun Hiremath <varun@debian.org>  Sat, 25 Apr 2009 17:36:47 -0400
+
+smbnetfs (0.5.0~git-1) unstable; urgency=low
+
+  * New upstream version (pulled from git)
+  * Update all patches
+  * Bump Standards-Version to 3.8.1
+  * Add NEWS file noting important changes in this version
+  * Fix debian/copyright and update upstream author's email-id
+
+ -- Varun Hiremath <varun@debian.org>  Sat, 11 Apr 2009 23:21:50 -0400
+
+smbnetfs (0.3.11a-1) unstable; urgency=low
+
+  * new upstream release
+  * Remove all patches that have been applied upstream.
+  * Set LDFLAGS := -Wl,--as-needed.
+
+ -- Torsten Werner <twerner@debian.org>  Mon, 17 Mar 2008 21:51:34 +0100
+
+smbnetfs (0.3.11-3) unstable; urgency=low
+
+  * Add new updated 2-possible-list-corruption.diff patch from upstream
+
+ -- Varun Hiremath <varun@debian.org>  Thu, 06 Mar 2008 21:50:22 +0530
+
+smbnetfs (0.3.11-2) unstable; urgency=low
+
+  * Include three upstream patches which fix some important bugs:
+    + 1-special_character_support.diff: proper escape of % and @ in samba
+      filename
+    + 2-possible-list-corruption.diff: prevent double insertion to the list
+    + 3-possible-deadlock.diff: fix possible deadlock
+
+ -- Varun Hiremath <varun@debian.org>  Sat, 01 Mar 2008 03:36:42 +0530
+
+smbnetfs (0.3.11-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Varun Hiremath <varun@debian.org>  Sat, 16 Feb 2008 23:50:11 +0530
+
+smbnetfs (0.3.10-2) unstable; urgency=low
+
+  * debian/control:
+    + Add Homepage header and replace XS-Vcs with Vcs
+    + Bump up Standards-Version to 3.7.3
+    + Build-Depend on debhelper >= 6
+  * debian/compat: Bump to 6
+
+ -- Varun Hiremath <varun@debian.org>  Sat, 19 Jan 2008 12:15:34 +0530
+
+smbnetfs (0.3.10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Varun Hiremath <varunhiremath@gmail.com>  Sun, 08 Jul 2007 20:32:52 +0530
+
+smbnetfs (0.3.9-1) unstable; urgency=low
+
+  [ Torsten Werner ]
+  * Add myself to Uploaders.
+  * Fixed debian/watch and implement get-orig-source.
+
+  [ Varun Hiremath ]
+  * New upstream release
+    + Bug fix: unmount doesn't kill smbnetfs (Closes: #412284)
+
+ -- Torsten Werner <twerner@debian.org>  Thu, 26 Apr 2007 22:49:40 +0200
+
+smbnetfs (0.3.8-1) unstable; urgency=low
+
+  * new upstream version
+
+ -- Torsten Werner <twerner@debian.org>  Mon, 12 Feb 2007 22:48:38 +0100
+
+smbnetfs (0.3.7-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Varun Hiremath <varunhiremath@gmail.com>  Tue, 19 Dec 2006 10:25:52 +0530
+
+smbnetfs (0.3.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #348209)
+
+ -- Varun Hiremath <varunhiremath@gmail.com>  Sun, 12 Nov 2006 20:35:21 +0530
